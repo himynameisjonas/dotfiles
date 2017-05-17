@@ -64,6 +64,7 @@ fi
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "plugins/fasd",   from:oh-my-zsh
 
 export NVM_LAZY_LOAD=true
 zplug "lukechilds/zsh-nvm"
