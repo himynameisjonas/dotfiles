@@ -20,6 +20,10 @@ export HISTCONTROL=ignoredups
 export HISTFILE="${CACHE_DIR}/.zsh_history"
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
+export EDITOR='atom -w'
+export VISUAL='atom -w'
+export PAGER='less'
+
 setopt append_history
 setopt extended_history
 setopt hist_expire_dups_first
