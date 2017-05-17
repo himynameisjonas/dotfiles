@@ -1,0 +1,28 @@
+require 'logger'
+
+def loud_logger
+  set_logger_to Logger.new(STDOUT)
+end
+
+def quiet_logger
+  set_logger_to nil
+end
+
+def set_logger_to(logger)
+  ActiveRecord::Base.logger = logger
+  ActiveRecord::Base.clear_reloadable_connections!
+end
+
+# set a nice prompt
+rails_root = File.basename(Dir.pwd)
+IRB.conf[:PROMPT] ||= {}
+IRB.conf[:PROMPT][:RAILS] = {
+  :PROMPT_I => "#{rails_root}> ", # normal prompt
+  :PROMPT_S => "#{rails_root}* ", # prompt when continuing a string
+  :PROMPT_C => "#{rails_root}? ", # prompt when continuing a statement
+  :RETURN   => "=> %s\n"          # prefixes output
+}
+IRB.conf[:PROMPT_MODE] = :RAILS
+
+# turn on the loud logging by default
+# IRB.conf[:IRB_RC] = Proc.new { loud_logger }
