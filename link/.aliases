@@ -1,0 +1,29 @@
+alias audiofix="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
+
+# fasd
+alias z='fasd_cd -d'
+alias j='fasd_cd -i'
+
+# Editor aliases
+alias sub='subl .'
+alias atom-beta='/Applications/Atom\ Beta.app/Contents/Resources/app/atom.sh'
+alias atm='atom-beta . --enable-gpu-rasterization'
+
+# GIT ALIASES
+alias gs='git-up'
+alias go='git checkout'
+alias st='git status -sb'
+alias gp='git pull --rebase'
+alias gph='git push heroku master'
+
+# Ruby/Rails
+alias tlog='tail -f log/development.log'
+alias s='spring'
+alias sc='spring rails console'
+alias sr='spring rspec'
+alias be='bundle exec'
+
+alias jnew='thor jekyll:new'
+
+alias teamtailor_start='cd ~/code/teamtailor && bin/start'
+alias teamtailor_console='heroku run console -a teamtailor'
