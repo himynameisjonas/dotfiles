@@ -79,6 +79,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "plugins/fasd",   from:oh-my-zsh
 
 export NVM_LAZY_LOAD=true
+export NVM_DIR="/Users/jonas/.nvm"
 zplug "lukechilds/zsh-nvm"
 
 # theme
