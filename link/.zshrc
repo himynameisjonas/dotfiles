@@ -55,7 +55,7 @@ setopt auto_pushd
 setopt pushd_ignore_dups
 
 zstyle ':completion:*:*:*:*:*' menu select
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*' # fuzzy
 zstyle ':completion:*' list-colors ''
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
 zstyle ':completion:*:cd:*' tag-order local-directories directory-stack path-directories
@@ -77,6 +77,7 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "plugins/fasd",   from:oh-my-zsh
+zplug "zsh-users/zsh-completions"
 
 export NVM_LAZY_LOAD=true
 export NVM_DIR="/Users/jonas/.nvm"
