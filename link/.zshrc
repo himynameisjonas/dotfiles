@@ -13,8 +13,8 @@ function fasd_cd {
 }
 
 # history settings
-export HISTSIZE=1024
-export SAVEHIST=1024
+export HISTSIZE=2028
+export SAVEHIST=2028
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 export HISTFILE="${CACHE_DIR}/.zsh_history"
