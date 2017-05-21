@@ -4,5 +4,6 @@ Dotfiles with a rake installer.
 * And some irb/gem/rails/git configs.
 
 ## Installing
-1. Clone repo
-2. run `rake`
+1. Install Zsh
+2. Clone this repo
+3. run `rake` to symlink files
