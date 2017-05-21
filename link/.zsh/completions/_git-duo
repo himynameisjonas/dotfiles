@@ -1,0 +1,10 @@
+#compdef git-duo
+_git-duo() {
+  local -a commands
+  commands=("${(@f)$(git config --get-regexp git-duo | grep -v git-duo.email | awk -F'[\ |\.]' '{ print $2 ":" $3 " " $4 }')}")
+  _describe -t commands 'commands' commands
+  return 0
+
+}
+
+_git-duo

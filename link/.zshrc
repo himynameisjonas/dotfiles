@@ -54,6 +54,8 @@ unsetopt menu_complete
 setopt auto_pushd
 setopt pushd_ignore_dups
 
+fpath=(~/.zsh/completions $fpath)
+
 zstyle ':completion:*:*:*:*:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*' # fuzzy
 zstyle ':completion:*' list-colors ''
