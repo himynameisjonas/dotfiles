@@ -108,4 +108,8 @@ fi
 [[ -f "${HOME}/.aliases" ]] && source "${HOME}/.aliases"
 
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
+
+# tabtab source for yarn package
+# uninstall by removing these lines or running `tabtab uninstall yarn`
+[[ -f /Users/jonas/.config/yarn/global/node_modules/tabtab/.completions/yarn.zsh ]] && . /Users/jonas/.config/yarn/global/node_modules/tabtab/.completions/yarn.zsh
