@@ -80,7 +80,7 @@ zplug "plugins/fasd",   from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
 
 export NVM_LAZY_LOAD=true
-export NVM_DIR="/Users/jonas/.nvm"
+export NVM_DIR="${HOME}/.nvm"
 zplug "lukechilds/zsh-nvm"
 
 # theme
@@ -109,7 +109,3 @@ fi
 
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
-
-# tabtab source for yarn package
-# uninstall by removing these lines or running `tabtab uninstall yarn`
-[[ -f /Users/jonas/.config/yarn/global/node_modules/tabtab/.completions/yarn.zsh ]] && . /Users/jonas/.config/yarn/global/node_modules/tabtab/.completions/yarn.zsh
