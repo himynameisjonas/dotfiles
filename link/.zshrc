@@ -105,7 +105,7 @@ if command -v rbenv &> /dev/null; then
   eval "$(rbenv init - zsh --no-rehash)"
 fi
 
-[[ -f "${HOME}/.aliases" ]] && source "${HOME}/.aliases"
+[[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
 
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"

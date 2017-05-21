@@ -19,7 +19,7 @@ class FileLinker
   end
 
   def self.link_files
-    files = Dir.glob(LINK_PATH.join("*"), File::FNM_DOTMATCH).reject{ |e| File.directory? e }
+    files = Dir.glob(LINK_PATH.join("*"), File::FNM_DOTMATCH).reject{ |e| e.end_with?("/.", "/..") }
     files.each do |file|
       new(file).handle
     end
