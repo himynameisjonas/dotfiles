@@ -25,5 +25,5 @@ alias be='bundle exec'
 
 alias jnew='thor jekyll:new'
 
-alias teamtailor_start='cd ~/code/teamtailor && bin/start'
+alias teamtailor_start='cd ~/code/teamtailor/ember_app && nvm use && cd .. && bin/start'
 alias teamtailor_console='heroku run console -a teamtailor'
