@@ -80,6 +80,7 @@ zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "plugins/fasd",   from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
 
 export NVM_LAZY_LOAD=true
 export NVM_DIR="${HOME}/.nvm"
