@@ -111,3 +111,4 @@ fi
 
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
+export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
