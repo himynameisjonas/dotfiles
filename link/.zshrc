@@ -82,10 +82,6 @@ zplug "plugins/fasd",   from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 
-export NVM_LAZY_LOAD=true
-export NVM_DIR="${HOME}/.nvm"
-zplug "lukechilds/zsh-nvm"
-
 # theme
 zplug "mafredri/zsh-async", on:sindresorhus/pure
 zplug "sindresorhus/pure", use:pure.zsh, defer:3
@@ -109,6 +105,9 @@ if command -v rbenv &> /dev/null; then
 fi
 
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
+
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
