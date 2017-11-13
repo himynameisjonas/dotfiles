@@ -17,7 +17,7 @@ alias gp='git pull --rebase'
 alias gph='git push heroku master'
 
 # Ruby/Rails
-alias tlog='tail -f log/development.log'
+alias tlog='tail -n 500 -f log/development.log'
 alias s='spring'
 alias sc='spring rails console'
 alias sr='spring rspec'
