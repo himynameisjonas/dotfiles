@@ -10,6 +10,7 @@ alias atom-beta='/Applications/Atom\ Beta.app/Contents/Resources/app/atom.sh'
 alias atm='atom . --enable-gpu-rasterization'
 
 # GIT ALIASES
+alias g='git'
 alias gs='git-up'
 alias go='git checkout'
 alias st='git status -sb'
