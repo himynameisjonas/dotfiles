@@ -12,10 +12,17 @@ alias atm='atom . --enable-gpu-rasterization'
 # GIT ALIASES
 alias g='git'
 alias gs='git-up'
-alias go='git checkout'
 alias st='git status -sb'
 alias gp='git pull --rebase'
 alias gph='git push heroku master'
+function go() {
+  if [ -n "$1" ]
+  then
+    git checkout $1
+  else
+    git pb
+  fi
+}
 
 # Ruby/Rails
 alias tlog='tail -n 500 -f log/development.log'
