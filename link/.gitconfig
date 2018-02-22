@@ -1,15 +1,16 @@
 [user]
-	name = Jonas Brusman
-	email = himynameisjonas@gmail.com
+  name = Jonas Brusman
+  email = himynameisjonas@gmail.com
+  signingkey = 84BFA7FAFB671574
 [alias]
   co = checkout
   st = status
   uncommit = reset --soft HEAD^
   unpushed = !git log origin/`git symbolic-ref HEAD 2> /dev/null | awk -F"/" '{ print $3 }'`..
   latest = for-each-ref --sort=-committerdate refs/heads --format='%(committerdate:relative)\t%(refname:short)'
-	pair = duo
-	branches = !git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate) %(refname:short)'
-	pb = !git branches | awk '{print $7}' | pick -S | xargs git checkout
+  pair = duo
+  branches = !git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate) %(refname:short)'
+  pb = !git branches | awk '{print $7}' | pick -S | xargs git checkout
 [color]
   diff = auto
   status = auto
@@ -29,5 +30,33 @@
   default = simple
 [merge]
   ff = false
+  conflictstyle = diff3
 [rebase]
-	autostash = true
+  autostash = true
+
+
+[difftool "Kaleidoscope"]
+  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+
+# If you want to set up Kaleidoscope as the default diff tool,
+# then also set the following variables:
+[difftool]
+  prompt = false
+[diff]
+  tool = Kaleidoscope
+[mergetool "Kaleidoscope"]
+  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+
+# If you want to set up Kaleidoscope as the default merge tool,
+# then also set the following variables:
+[mergetool]
+  prompt = false
+[merge]
+  tool = Kaleidoscope
+[commit]
+  gpgsign = false
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
