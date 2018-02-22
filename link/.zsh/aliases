@@ -1,5 +1,7 @@
 alias audiofix="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
+alias hist='eval $(fc -ln 1 | pick)'
+
 # fasd
 alias z='fasd_cd -d'
 alias j='fasd_cd -i'
