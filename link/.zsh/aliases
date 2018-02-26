@@ -20,7 +20,7 @@ alias gph='git push heroku master'
 function go() {
   if [ -n "$1" ]
   then
-    git checkout $1
+    git checkout "$@"
   else
     git pb
   fi
