@@ -24,6 +24,8 @@ export EDITOR='atom -w'
 export VISUAL='atom -w'
 export PAGER='less'
 
+bindkey '[3~' delete-char
+
 setopt append_history
 setopt extended_history
 setopt hist_expire_dups_first
