@@ -86,7 +86,7 @@ zplug "zsh-users/zsh-autosuggestions"
 
 # theme
 zplug "mafredri/zsh-async", on:sindresorhus/pure
-zplug "sindresorhus/pure", use:pure.zsh, defer:3
+zplug "sindresorhus/pure", use:pure.zsh, defer:3, as:theme
 
 if ! zplug check --verbose; then
   printf "Install? [y/N]: "
