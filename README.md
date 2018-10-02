@@ -1,6 +1,7 @@
 # dotfiles
 Dotfiles with a rake installer.
 * Zsh with [zplug](https://github.com/zplug/zplug).
+* [Hammerspoon](http://www.hammerspoon.org) config
 * And some irb/gem/rails/git configs.
 
 ## Installing
