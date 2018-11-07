@@ -1,3 +1,6 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 export ZPLUG_HOME="${HOME}/.zplug"
 export CACHE_DIR="${HOME}/.cache"
 [[ ! -d "${CACHE_DIR}" ]] && mkdir -p "${CACHE_DIR}"
