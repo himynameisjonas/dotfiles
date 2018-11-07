@@ -106,7 +106,7 @@ if zplug check "zsh-users/zsh-history-substring-search"; then
 fi
 
 if command -v rbenv &> /dev/null; then
-  eval "$(rbenv init - zsh --no-rehash)"
+  eval "$(rbenv init - --no-rehash zsh)"
 fi
 
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
