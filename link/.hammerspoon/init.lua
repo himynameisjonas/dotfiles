@@ -26,7 +26,7 @@ if spoon.WinWin then
     -- cmodal:bind('', 'U', 'SouthWest Corner', function() spoon.WinWin:moveAndResize("cornerSW") end)
     -- cmodal:bind('', 'I', 'SouthEast Corner', function() spoon.WinWin:moveAndResize("cornerSE") end)
 
-    cmodal:bind('', 'F', 'Fullscreen', function() spoon.WinWin:moveAndResize("fullscreen") end)
+    cmodal:bind('', 'space', 'Fullscreen', function() spoon.WinWin:moveAndResize("fullscreen") end)
     cmodal:bind('', 'tab', 'Center Window', function() spoon.WinWin:moveAndResize("center") end)
     cmodal:bind('', '.', 'Stretch Outward', function() spoon.WinWin:moveAndResize("expand") end, nil, function() spoon.WinWin:moveAndResize("expand") end)
     cmodal:bind('', ',', 'Shrink Inward', function() spoon.WinWin:moveAndResize("shrink") end, nil, function() spoon.WinWin:moveAndResize("shrink") end)
