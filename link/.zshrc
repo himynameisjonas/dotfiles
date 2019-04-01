@@ -118,5 +118,9 @@ fi
 . $HOME/.asdf/completions/asdf.bash
 
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="$PATH:`yarn global bin`"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+
+export NOTION_HOME="$HOME/.notion"
+[ -s "$NOTION_HOME/load.sh" ] && \. "$NOTION_HOME/load.sh"
+
+export PATH="${NOTION_HOME}/bin:$PATH"
