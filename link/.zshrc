@@ -23,8 +23,8 @@ export HISTCONTROL=ignoredups
 export HISTFILE="${CACHE_DIR}/.zsh_history"
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
-export EDITOR='atom -w'
-export VISUAL='atom -w'
+export EDITOR='code -w'
+export VISUAL='code -w'
 export PAGER='less'
 
 export LC_ALL=en_US.UTF-8
