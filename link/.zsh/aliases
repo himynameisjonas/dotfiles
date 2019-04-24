@@ -11,6 +11,7 @@ alias j='fasd_cd -i'
 alias sub='subl .'
 alias atom-beta='/Applications/Atom\ Beta.app/Contents/Resources/app/atom.sh'
 alias atm='atom . --enable-gpu-rasterization'
+alias co='code .'
 
 # GIT ALIASES
 alias g='git'
