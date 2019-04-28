@@ -118,6 +118,7 @@ fi
 
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+export PATH="${HOME}/scripts:/usr/local/opt/postgresql@9.4/bin:$PATH"
 
 export VOLTA_HOME="$HOME/.volta"
 [ -s "$VOLTA_HOME/load.sh" ] && \. "$VOLTA_HOME/load.sh"
