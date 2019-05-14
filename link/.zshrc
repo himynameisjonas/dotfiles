@@ -120,7 +120,7 @@ fi
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 
-export NOTION_HOME="$HOME/.notion"
-[ -s "$NOTION_HOME/load.sh" ] && \. "$NOTION_HOME/load.sh"
+export VOLTA_HOME="$HOME/.volta"
+[ -s "$VOLTA_HOME/load.sh" ] && \. "$VOLTA_HOME/load.sh"
 
-export PATH="${NOTION_HOME}/bin:$PATH"
+export PATH="${VOLTA_HOME}/bin:$PATH"
