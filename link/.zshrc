@@ -90,9 +90,8 @@ zplug "plugins/fasd",   from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 
-# theme
-zplug "mafredri/zsh-async", on:sindresorhus/pure
-zplug "sindresorhus/pure", use:pure.zsh, defer:3, as:theme
+# theme / promt
+eval "$(starship init zsh)"
 
 if ! zplug check --verbose; then
   printf "Install? [y/N]: "
