@@ -22,6 +22,7 @@
   excludesfile = /Users/jonas/.gitignore
   autocrlf = input
   quotepath = false
+	attributesfile = ~/.gitattributes
 [apply]
   whitespace = nowarn
 [help]
@@ -62,3 +63,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
   required = true
+[merge "merge-structure-sql"]
+	name = Rails structure.sql merge driver
+	driver = git-merge-structure-sql %A %O %B
