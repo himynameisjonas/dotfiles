@@ -36,26 +36,14 @@
   conflictstyle = diff3
 [rebase]
   autostash = true
-
-
-[difftool "Kaleidoscope"]
-  cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-
-# If you want to set up Kaleidoscope as the default diff tool,
-# then also set the following variables:
 [difftool]
   prompt = false
 [diff]
-  tool = Kaleidoscope
-[mergetool "Kaleidoscope"]
-  cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
-
-# If you want to set up Kaleidoscope as the default merge tool,
-# then also set the following variables:
+	tool = vscode
 [mergetool]
   prompt = false
 [merge]
-  tool = Kaleidoscope
+	tool = vscode
 [commit]
   gpgsign = false
 [filter "lfs"]
@@ -66,3 +54,10 @@
 [merge "merge-structure-sql"]
 	name = Rails structure.sql merge driver
 	driver = git-merge-structure-sql %A %O %B
+[merge "merge-structure-sql"]
+	name = Rails structure.sql merge driver
+	driver = git-merge-structure-sql %A %O %B
+[mergetool "vscode"]
+	cmd = "code --wait "
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
