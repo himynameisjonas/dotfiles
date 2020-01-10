@@ -121,6 +121,7 @@ export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 export PATH="${HOME}/scripts:/usr/local/opt/postgresql@9.4/bin:$PATH"
 
 export VOLTA_HOME="$HOME/.volta"
-[ -s "$VOLTA_HOME/load.sh" ] && \. "$VOLTA_HOME/load.sh"
+[ -s "$VOLTA_HOME/load.sh" ] && . "$VOLTA_HOME/load.sh"
+export PATH="$VOLTA_HOME/bin:$PATH"
 
 export PATH="${VOLTA_HOME}/bin:$PATH"
