@@ -55,8 +55,6 @@
 	name = Rails structure.sql merge driver
 	driver = git-merge-structure-sql %A %O %B
 [mergetool "vscode"]
-	cmd = "code --wait "
+	cmd = "code --wait --new-window "
 [difftool "vscode"]
-	cmd = "code --wait --diff  "
-[fetch]
-	writeCommitGraph = true
+	cmd = "code --wait --diff --new-window "
