@@ -111,6 +111,8 @@ if command -v rbenv &> /dev/null; then
   eval "$(rbenv init - --no-rehash zsh)"
 fi
 
+export HUSKY_SKIP_HOOKS=1
+
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
 
 . $HOME/.asdf/asdf.sh
