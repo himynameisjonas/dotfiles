@@ -1,6 +1,6 @@
 [user]
   name = Jonas Brusman
-  email = himynameisjonas@gmail.com
+	email = jonas@brusman.se
   signingkey = 84BFA7FAFB671574
 [alias]
   co = checkout
@@ -58,3 +58,7 @@
 	cmd = "code --wait --new-window "
 [difftool "vscode"]
 	cmd = "code --wait --diff --new-window "
+
+# This next lines include Netlify's Git Credential Helper configuration in your Git configuration.
+[include]
+  path = /Users/jonas/.netlify/helper/git-config

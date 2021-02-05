@@ -118,8 +118,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 export PATH="${HOME}/scripts:/usr/local/opt/postgresql@9.4/bin:$PATH"
 
-export VOLTA_HOME="$HOME/.volta"
-[ -s "$VOLTA_HOME/load.sh" ] && . "$VOLTA_HOME/load.sh"
-export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
-export PATH="${VOLTA_HOME}/bin:$PATH"
+# The next line updates PATH for Netlify's Git Credential Helper.
+if [ -f '/Users/jonas/.netlify/helper/path.zsh.inc' ]; then source '/Users/jonas/.netlify/helper/path.zsh.inc'; fi
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
