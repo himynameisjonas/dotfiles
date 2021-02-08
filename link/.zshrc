@@ -111,9 +111,7 @@ export HUSKY_SKIP_HOOKS=1
 
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-
+eval "$(rbenv init -)"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 export PATH="${HOME}/scripts:/usr/local/opt/postgresql@9.4/bin:$PATH"
