@@ -111,6 +111,8 @@ export HUSKY_SKIP_HOOKS=1
 
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
 
+export STARSHIP_CONFIG=~/.starship
+
 eval "$(rbenv init -)"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
