@@ -47,17 +47,17 @@
 [commit]
   gpgsign = false
 [filter "lfs"]
-  clean = git-lfs clean -- %f
+	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-  required = true
+	required = true
 [merge "merge-structure-sql"]
 	name = Rails structure.sql merge driver
 	driver = git-merge-structure-sql %A %O %B
 [mergetool "vscode"]
-	cmd = "code --wait --new-window "
+	cmd = "code-insiders --wait --new-window "
 [difftool "vscode"]
-	cmd = "code --wait --diff --new-window "
+	cmd = "code-insiders --wait --diff --new-window "
 
 # This next lines include Netlify's Git Credential Helper configuration in your Git configuration.
 [include]
