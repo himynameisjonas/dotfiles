@@ -107,8 +107,6 @@ if zplug check "zsh-users/zsh-history-substring-search"; then
     bindkey '^[[B' history-substring-search-down
 fi
 
-export HUSKY_SKIP_HOOKS=1
-
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
 
 export STARSHIP_CONFIG=~/.starship
