@@ -1,7 +1,6 @@
 [user]
-  name = Jonas Brusman
+	name = Jonas Brusman
 	email = jonas@brusman.se
-  signingkey = 84BFA7FAFB671574
 [alias]
   co = checkout
   st = status
@@ -13,6 +12,7 @@
   branchez = !"{ git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate) %(refname:short)' | awk '{print $7}' & git rev-parse --remotes=origin | git name-rev --name-only --stdin | sed -E 's/remotes\\/origin\\///'; }"
   branches = !git branchez | cat -n | sort -uk2 | sort -nk1 | cut -f2-
   pb = !git branches | pick -S | xargs git checkout
+  cleanup = "!git branch --merged master | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d"
 [color]
   diff = auto
   status = auto
@@ -55,10 +55,16 @@
 	name = Rails structure.sql merge driver
 	driver = git-merge-structure-sql %A %O %B
 [mergetool "vscode"]
-	cmd = "code-insiders --wait --new-window "
+	cmd = "code --wait --new-window "
 [difftool "vscode"]
-	cmd = "code-insiders --wait --diff --new-window "
+	cmd = "code --wait --diff --new-window "
 
 # This next lines include Netlify's Git Credential Helper configuration in your Git configuration.
 [include]
   path = /Users/jonas/.netlify/helper/git-config
+
+# This next lines include Netlify's Git Credential Helper configuration in your Git configuration.
+[include]
+  path = /Users/jonas/Library/Preferences/netlify/helper/git-config
+[init]
+	defaultBranch = main
