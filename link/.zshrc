@@ -122,3 +122,7 @@ export PATH="/usr/local/sbin:$PATH"
 if [ -f '/Users/jonas/.netlify/helper/path.zsh.inc' ]; then source '/Users/jonas/.netlify/helper/path.zsh.inc'; fi
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# The next line updates PATH for Netlify's Git Credential Helper.
+test -f '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc'
+
