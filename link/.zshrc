@@ -5,15 +5,7 @@ export ZPLUG_HOME="${HOME}/.zplug"
 export CACHE_DIR="${HOME}/.cache"
 [[ ! -d "${CACHE_DIR}" ]] && mkdir -p "${CACHE_DIR}"
 
-export _FASD_DATA="${CACHE_DIR}/.fasd" # set fasd data file location
-function fasd_cd {
-  local fasd_ret="$(fasd -d "$@")"
-  if [[ -d "$fasd_ret" ]]; then
-    cd "$fasd_ret"
-  else
-    print "$fasd_ret"
-  fi
-}
+export ZSHZ_DATA="${CACHE_DIR}/z"
 
 # history settings
 export HISTSIZE=2028
@@ -74,6 +66,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-
 zstyle ':completion:*:cd:*' tag-order local-directories directory-stack path-directories
 zstyle ':completion::complete:*' use-cache 1
 zstyle ':completion::complete:*' cache-path $ZSH_CACHE_DIR
+zstyle ':completion:*' menu select
 
 if [[ ! -d "${ZPLUG_HOME}" ]]; then
   echo "Installing zplug"
@@ -89,7 +82,7 @@ fi
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
-zplug "plugins/fasd",   from:oh-my-zsh
+zplug "agkozak/zsh-z"
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 
