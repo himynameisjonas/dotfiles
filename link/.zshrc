@@ -30,6 +30,9 @@ export PAGER='less'
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+ulimit -Sn 64000
+ulimit -Sl 200000
+
 bindkey '[3~' delete-char
 
 setopt append_history
