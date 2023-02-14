@@ -36,6 +36,7 @@
   conflictstyle = diff3
 [rebase]
   autostash = true
+	updateRefs = true
 [difftool]
   prompt = false
 [diff]
