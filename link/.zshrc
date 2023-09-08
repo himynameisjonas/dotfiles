@@ -98,6 +98,14 @@ fi
 
 zplug load
 
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+
 if zplug check "zsh-users/zsh-history-substring-search"; then
     bindkey '^[[A' history-substring-search-up
     bindkey '^[[B' history-substring-search-down
