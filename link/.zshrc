@@ -131,3 +131,5 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 test -f '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc'
 
 TT_AC_ZSH_SETUP_PATH=/Users/jonas/Library/Caches/tt/autocomplete/zsh_setup && test -f $TT_AC_ZSH_SETUP_PATH && source $TT_AC_ZSH_SETUP_PATH; # tt autocomplete setup
+
+OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
