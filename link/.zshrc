@@ -117,9 +117,7 @@ export STARSHIP_CONFIG=~/.starship
 
 eval "$(rbenv init -)"
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
-export PATH="${HOME}/scripts:/usr/local/opt/postgresql@9.4/bin:$PATH"
-
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # The next line updates PATH for Netlify's Git Credential Helper.
