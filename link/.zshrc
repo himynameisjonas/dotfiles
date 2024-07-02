@@ -11,7 +11,7 @@ export ZSHZ_DATA="${CACHE_DIR}/z"
 export HISTSIZE=2028
 export SAVEHIST=2028
 export HISTFILESIZE=$HISTSIZE
-export HISTCONTROL=ignoredups
+# export HISTCONTROL=ignoredups
 export HISTFILE="${CACHE_DIR}/.zsh_history"
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
@@ -131,3 +131,5 @@ test -f '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc' && source
 TT_AC_ZSH_SETUP_PATH=/Users/jonas/Library/Caches/tt/autocomplete/zsh_setup && test -f $TT_AC_ZSH_SETUP_PATH && source $TT_AC_ZSH_SETUP_PATH; # tt autocomplete setup
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+eval "$(atuin init zsh)"
