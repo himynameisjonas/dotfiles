@@ -1,0 +1,8 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-}": "terminal_panel::ToggleFocus"
+    }
+  }
+]

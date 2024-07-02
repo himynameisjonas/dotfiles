@@ -1,0 +1,73 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "base_keymap": "Atom",
+  "theme": "Catppuccin Frappé",
+  "buffer_font_family": "Operator Mono Lig",
+  "buffer_font_size": 17,
+  "buffer_line_height": "comfortable",
+  "ui_font_family": "Operator Mono Lig",
+  "ui_font_size": 17,
+  "ui_font_weight": 200,
+
+  "collaboration_panel": {
+    "button": false
+  },
+
+  "chat_panel": {
+    "button": false
+  },
+
+  "notification_panel": {
+    "button": false
+  },
+
+  "assistant": {
+    "version": "1",
+    "enabled": false
+  },
+
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+
+  "tabs": {
+    "git_status": true
+  },
+
+  "telemetry": {
+    "metrics": false
+  },
+
+  "terminal": {
+    "env": {
+      "GIT_EDITOR": "zed --wait"
+    }
+  },
+
+  "languages": {
+    "Ruby": {
+      "language_servers": ["standardrb"]
+    }
+  },
+
+  "lsp": {
+    "tailwindcss-language-server": {
+      "settings": {
+        "includeLanguages": {
+          "erb": "html",
+          "ruby": "html"
+        },
+        "experimental": {
+          "classRegex": ["\\bclass:\\s*['\"]([^'\"]*)['\"]"]
+        }
+      }
+    }
+  }
+}
