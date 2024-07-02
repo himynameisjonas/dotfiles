@@ -19,7 +19,7 @@ class FileLinker
   end
 
   def self.link_files
-    files = Dir.glob(LINK_PATH.join("*"), File::FNM_DOTMATCH).reject{ |e| e.end_with?("/.", "/..") }
+    files = Dir.glob(LINK_PATH.join("*"), File::FNM_DOTMATCH).reject { |e| e.end_with?("/.", "/..") }
     files.each do |file|
       new(file).handle
     end
@@ -32,12 +32,12 @@ class FileLinker
       else
         print "overwrite #{source_path}? [ynq] "
         case $stdin.gets.chomp
-        when 'y'
+        when "y"
           replace_file
-        when 'q'
+        when "q"
           exit
         else
-          puts "skipping #{file}"
+          puts "skipping #{source_path}"
         end
       end
     else
