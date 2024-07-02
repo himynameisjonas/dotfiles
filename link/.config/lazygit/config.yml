@@ -1,0 +1,9 @@
+git:
+  autoFetch: false
+
+os:
+  edit: "zed --add {{filename}}"
+  editAtLine: "zed --add {{filename}}:{{line}}"
+  editAtLineAndWait: "zed --add --wait {{filename}}:{{line}}"
+  openDirInEditor: "zed {{dir}}"
+  editInTerminal: false
