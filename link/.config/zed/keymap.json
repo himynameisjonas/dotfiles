@@ -4,5 +4,38 @@
     "bindings": {
       "cmd-}": "terminal_panel::ToggleFocus"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-r g": [
+        "task::Spawn",
+        {
+          "task_name": "Open lazygit"
+        }
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-r s": [
+        "task::Spawn",
+        {
+          "task_name": "Start"
+        }
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-r u": [
+        "task::Spawn",
+        {
+          "task_name": "Update"
+        }
+      ]
+    }
   }
 ]
