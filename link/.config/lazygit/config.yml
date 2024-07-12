@@ -1,6 +1,7 @@
 git:
   autoFetch: false
-
+  commit:
+    autoWrapCommitMessage: false
 os:
   edit: "zed --add {{filename}}"
   editAtLine: "zed --add {{filename}}:{{line}}"
