@@ -132,4 +132,5 @@ TT_AC_ZSH_SETUP_PATH=/Users/jonas/Library/Caches/tt/autocomplete/zsh_setup && te
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
+export XDG_CONFIG_HOME="$HOME/.config/"
 eval "$(atuin init zsh)"
