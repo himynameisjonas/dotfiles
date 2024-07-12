@@ -16,3 +16,4 @@ link/.config/configstore/update-notifier-*
 link/.config/configstore/ember-cli.json
 link/.config/configstore/yo.json
 link/.config/configstore/nodemon.json
+link/.config/ngrok/ngrok.yml
