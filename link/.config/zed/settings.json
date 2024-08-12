@@ -58,6 +58,12 @@
   "languages": {
     "Ruby": {
       "language_servers": ["standardrb"]
+    },
+    "Handlebars": {
+      "ensure_final_newline_on_save": false,
+      "prettier": {
+        "allowed": true
+      }
     }
   },
 
