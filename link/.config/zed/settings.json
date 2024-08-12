@@ -29,8 +29,12 @@
   },
 
   "assistant": {
-    "version": "1",
-    "enabled": false
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4"
+    },
+    "version": "2",
+    "enabled": true
   },
 
   "tab_bar": {
