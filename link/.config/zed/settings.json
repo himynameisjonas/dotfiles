@@ -52,7 +52,8 @@
   "terminal": {
     "env": {
       "GIT_EDITOR": "zed --wait"
-    }
+    },
+    "option_as_meta": false
   },
 
   "languages": {

@@ -14,6 +14,10 @@ config.window_frame = {
     font_size = 13,
 }
 
+-- Fix for typing curly brackets with a swedish keyboard layout
+config.send_composed_key_when_left_alt_is_pressed = true
+config.send_composed_key_when_right_alt_is_pressed = true
+
 wezterm.on('update-status', function(window)
     -- Grab the utf8 character for the "powerline" left facing
     -- solid arrow.
