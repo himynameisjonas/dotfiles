@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "base_keymap": "Atom",
-  "theme": "Catppuccin Frappé",
+  "theme": "Catppuccin Latte",
   "buffer_font_family": "Operator Mono Lig",
   "buffer_font_size": 17,
   "buffer_line_height": "comfortable",
