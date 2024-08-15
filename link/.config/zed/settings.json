@@ -53,7 +53,12 @@
     "env": {
       "GIT_EDITOR": "zed --wait"
     },
-    "option_as_meta": false
+    "option_as_meta": false,
+    "detect_venv": {
+      "on": {
+        "directories": ["env", ".venv", "venv"]
+      }
+    }
   },
 
   "languages": {
