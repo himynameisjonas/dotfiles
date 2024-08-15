@@ -21,6 +21,8 @@ config.initial_cols = 130
 config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
 
+config.quit_when_all_windows_are_closed = false
+
 wezterm.on('update-status', function(window)
     -- Grab the utf8 character for the "powerline" left facing
     -- solid arrow.
