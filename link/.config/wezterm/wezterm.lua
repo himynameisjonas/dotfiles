@@ -14,6 +14,9 @@ config.window_frame = {
     font_size = 13,
 }
 
+config.initial_rows = 43
+config.initial_cols = 130
+
 -- Fix for typing curly brackets with a swedish keyboard layout
 config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
