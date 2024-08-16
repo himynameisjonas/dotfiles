@@ -15,8 +15,8 @@ export HISTFILESIZE=$HISTSIZE
 export HISTFILE="${CACHE_DIR}/.zsh_history"
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
-export EDITOR='code -w -n'
-export VISUAL='code -w -n'
+export EDITOR='zed --wait'
+export VISUAL='zed --wait'
 export PAGER='less'
 
 export LC_ALL=en_US.UTF-8
