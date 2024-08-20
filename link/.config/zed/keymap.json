@@ -1,5 +1,11 @@
 [
   {
+    "context": "Editor",
+    "bindings": {
+      "cmd-shift-l": "editor::SplitSelectionIntoLines"
+    }
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "cmd-}": "terminal_panel::ToggleFocus"
