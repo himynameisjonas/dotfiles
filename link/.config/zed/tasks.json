@@ -4,6 +4,7 @@
     "command": "lazygit",
     "use_new_terminal": true,
     "allow_concurrent_runs": false,
-    "reveal": "always"
+    "reveal": "always",
+    "hide": "always"
   }
 ]
