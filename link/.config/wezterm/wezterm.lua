@@ -21,6 +21,30 @@ config.initial_cols = 130
 config.send_composed_key_when_left_alt_is_pressed = true
 config.send_composed_key_when_right_alt_is_pressed = true
 
+config.keys = {
+    {
+        key = 'k',
+        mods = 'CMD',
+        action = wezterm.action.ClearScrollback 'ScrollbackAndViewport',
+    },
+    {
+        key = 'w',
+        mods = 'CMD',
+        action = wezterm.action.CloseCurrentPane { confirm = true },
+    },
+
+    {
+        key = 'd',
+        mods = 'CMD',
+        action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
+    },
+    {
+        key = 'd',
+        mods = 'CMD|SHIFT',
+        action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
+    },
+}
+
 config.quit_when_all_windows_are_closed = false
 
 wezterm.on('update-status', function(window)
