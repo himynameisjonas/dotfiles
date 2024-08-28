@@ -63,7 +63,8 @@
 
   "languages": {
     "Ruby": {
-      "language_servers": ["standardrb"]
+      "language_servers": ["ruby-lsp", "!solargraph", "!rubocop"],
+      "formatter": "language_server"
     },
     "Handlebars": {
       "ensure_final_newline_on_save": false,
@@ -74,6 +75,15 @@
   },
 
   "lsp": {
+    "ruby-lsp": {
+      "initialization_options": {
+        "enabledFeatures": {
+          "diagnostics": false,
+          "formatting": true
+        },
+        "formatter": "standard"
+      }
+    },
     "tailwindcss-language-server": {
       "settings": {
         "includeLanguages": {
