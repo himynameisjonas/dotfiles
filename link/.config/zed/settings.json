@@ -63,7 +63,7 @@
 
   "languages": {
     "Ruby": {
-      "language_servers": ["ruby-lsp", "!solargraph", "!rubocop"],
+      "language_servers": ["ruby-lsp", "standardrb", "!solargraph", "!rubocop"],
       "formatter": "language_server"
     },
     "Handlebars": {
@@ -78,7 +78,7 @@
     "ruby-lsp": {
       "initialization_options": {
         "enabledFeatures": {
-          "diagnostics": false,
+          "diagnostics": true,
           "formatting": true
         },
         "formatter": "standard"
