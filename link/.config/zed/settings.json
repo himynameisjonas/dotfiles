@@ -10,7 +10,7 @@
   "base_keymap": "Atom",
   "theme": "Catppuccin Latte",
   "buffer_font_family": "Operator Mono Lig",
-  "buffer_font_size": 17,
+  "buffer_font_size": 18,
   "buffer_line_height": "comfortable",
   "ui_font_family": "Operator Mono Lig",
   "ui_font_size": 17,
