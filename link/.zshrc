@@ -125,6 +125,7 @@ if [ -f '/Users/jonas/.netlify/helper/path.zsh.inc' ]; then source '/Users/jonas
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 export VOLTA_FEATURE_PNPM=1
+export NODE_OPTIONS=--max_old_space_size=6144
 
 # The next line updates PATH for Netlify's Git Credential Helper.
 test -f '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc'
