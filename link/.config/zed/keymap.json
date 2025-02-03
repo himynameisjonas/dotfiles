@@ -6,6 +6,9 @@
     }
   },
   {
+    "bindings": { "cmd-/": "editor::ToggleComments" }
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "cmd-}": "terminal_panel::ToggleFocus"
