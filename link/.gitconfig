@@ -29,6 +29,8 @@
   autocorrect = 1
 [rerere]
   enabled = 1
+[pull]
+  rebase = true
 [push]
   default = simple
 [merge]
@@ -36,7 +38,7 @@
   conflictstyle = diff3
 [rebase]
   autostash = true
-	updateRefs = true
+  updateRefs = true
 [difftool]
   prompt = false
 [diff]
