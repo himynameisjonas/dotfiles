@@ -7,6 +7,23 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "ssh_connections": [
+    {
+      "host": "allthingsmini.local",
+      "username": "jonas",
+      "projects": [
+        {
+          "paths": ["~/minecraft"]
+        },
+        {
+          "paths": ["~/plexbox"]
+        },
+        {
+          "paths": ["~/plexbox/arr"]
+        }
+      ]
+    }
+  ],
   "base_keymap": "Atom",
   "theme": "Catppuccin Latte",
   "buffer_font_family": "Operator Mono Lig",
