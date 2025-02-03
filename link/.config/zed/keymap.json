@@ -21,7 +21,7 @@
       "ctrl-r g": [
         "task::Spawn",
         {
-          "task_name": "Open lazygit"
+          "task_name": "Lazygit"
         }
       ]
     }
