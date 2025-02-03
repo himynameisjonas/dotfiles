@@ -71,6 +71,14 @@
       "prettier": {
         "allowed": true
       }
+    },
+    "Terraform": {
+      "formatter": {
+        "external": {
+          "command": "tofu",
+          "arguments": ["fmt", "-"]
+        }
+      }
     }
   },
 
