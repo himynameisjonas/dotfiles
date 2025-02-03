@@ -11,7 +11,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-}": "terminal_panel::ToggleFocus"
+      "cmd-}": "terminal_panel::ToggleFocus",
+      "cmd-ctrl-a": "assistant::ToggleFocus"
     }
   },
   {
