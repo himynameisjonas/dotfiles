@@ -135,3 +135,4 @@ TT_AC_ZSH_SETUP_PATH=/Users/jonas/Library/Caches/tt/autocomplete/zsh_setup && te
 
 export XDG_CONFIG_HOME="$HOME/.config/"
 eval "$(atuin init zsh)"
+export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
