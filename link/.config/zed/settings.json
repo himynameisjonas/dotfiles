@@ -20,6 +20,9 @@
           "paths": ["~/minecraft"]
         },
         {
+          "paths": ["~/obsidian"]
+        },
+        {
           "paths": ["~/plexbox"]
         },
         {
@@ -66,10 +69,31 @@
     "button": false
   },
 
-  "assistant": {
+  "agent": {
+    "profiles": {
+      "ask,-no-code": {
+        "name": "Ask, no code",
+        "tools": {
+          "contents": false,
+          "diagnostics": false,
+          "fetch": true,
+          "list_directory": false,
+          "now": true,
+          "find_path": false,
+          "read_file": true,
+          "grep": false,
+          "thinking": true,
+          "web_search": true
+        },
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
+    "default_profile": "ask",
+    "always_allow_tool_actions": true,
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "claude-3-7-sonnet"
     },
     "inline_alternatives": [
       {
@@ -87,6 +111,10 @@
 
   "tabs": {
     "git_status": true
+  },
+
+  "git_panel": {
+    "sort_by_path": true
   },
 
   "telemetry": {
