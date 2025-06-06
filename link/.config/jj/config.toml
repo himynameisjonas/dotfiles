@@ -1,0 +1,11 @@
+"$schema" = "https://jj-vcs.github.io/jj/latest/config-schema.json"
+
+[user]
+name = "Jonas Brusman"
+email = "jonas@brusman.se"
+
+[ui]
+pager = ":builtin"
+
+[aliases]
+tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
