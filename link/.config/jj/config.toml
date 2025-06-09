@@ -6,6 +6,7 @@ email = "jonas@brusman.se"
 
 [ui]
 pager = ":builtin"
+default-command = "log"
 
 [aliases]
 tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
