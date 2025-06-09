@@ -132,6 +132,7 @@ test -f '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc' && source
 
 TT_AC_ZSH_SETUP_PATH=/Users/jonas/Library/Caches/tt/autocomplete/zsh_setup && test -f $TT_AC_ZSH_SETUP_PATH && source $TT_AC_ZSH_SETUP_PATH; # tt autocomplete setup
 
+source <(COMPLETE=zsh jj)
 
 export XDG_CONFIG_HOME="$HOME/.config/"
 eval "$(atuin init zsh)"
