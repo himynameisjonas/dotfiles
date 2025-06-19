@@ -12,7 +12,7 @@
   branchez = !"{ git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate) %(refname:short)' | awk '{print $7}' & git rev-parse --remotes=origin | git name-rev --name-only --stdin | sed -E 's/remotes\\/origin\\///'; }"
   branches = !git branchez | cat -n | sort -uk2 | sort -nk1 | cut -f2-
   pb = !git branches | pick -S | xargs git checkout
-  cleanup = "!git branch --merged master | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d"
+  cleanup = "!git branch --merged main | grep  -v '\\*\\|main\\|develop' | xargs -n 1 -r git branch -d"
 [color]
   diff = auto
   status = auto
