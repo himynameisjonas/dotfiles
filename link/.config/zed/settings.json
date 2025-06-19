@@ -139,7 +139,12 @@
 
   "languages": {
     "Ruby": {
-      "language_servers": ["ruby-lsp", "standardrb", "!solargraph", "!rubocop"],
+      "language_servers": [
+        "ruby-lsp",
+        "!standardrb",
+        "!solargraph",
+        "!rubocop"
+      ],
       "formatter": "language_server"
     },
     "Handlebars": {
@@ -173,6 +178,7 @@
           "diagnostics": true,
           "formatting": true
         },
+        "linters": ["standard"],
         "formatter": "standard"
       }
     },
