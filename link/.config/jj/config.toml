@@ -5,8 +5,18 @@ name = "Jonas Brusman"
 email = "jonas@brusman.se"
 
 [ui]
-pager = ":builtin"
-default-command = "log"
+pager = "delta"
+default-command = "status"
 
 [aliases]
 tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+ll = [
+    "log",
+    "-r",
+    "trunk()..@ | @..trunk() | trunk() | @:: | fork_point(trunk() | @)",
+    "-T",
+    "builtin_log_oneline",
+]
+
+[git]
+write-change-id-header = true
