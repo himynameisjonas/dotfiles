@@ -17,6 +17,7 @@ ll = [
     "-T",
     "builtin_log_oneline",
 ]
+rmain = ["rebase", "-r", "@", "-d", "main@origin"]
 
 [git]
 write-change-id-header = true
