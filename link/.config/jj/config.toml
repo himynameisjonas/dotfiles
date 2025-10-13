@@ -10,6 +10,7 @@ default-command = "status"
 
 [aliases]
 tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+
 ll = [
     "log",
     "-r",
@@ -17,6 +18,12 @@ ll = [
     "-T",
     "builtin_log_oneline",
 ]
+lll = [
+    "log",
+    "-r",
+    "@ | ancestors(remote_bookmarks().., 2) | trunk()",
+]
+
 rtrunk = ["rebase", "-r", "@", "-d", "trunk()"]
 
 [git]
