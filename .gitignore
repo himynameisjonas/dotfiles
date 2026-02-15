@@ -11,7 +11,7 @@ link/.config/configstore/yo.json
 link/.config/gh/hosts.yml
 
 link/.config/github-copilot/hosts.json
-
+link/.config/github-copilot/apps.json
 link/.config/iterm2/AppSupport
 
 link/.config/ngrok/ngrok.yml
