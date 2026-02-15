@@ -1,0 +1,17 @@
+2025-10-18T16:46:43.278Z [LOG] Using Copilot API endpoint: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-18T16:46:43.280Z [LOG] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-18T16:46:43.280Z [LOG] Creating MCP client for github-mcp-server...
+2025-10-18T16:46:43.282Z [LOG] Connecting MCP client for github-mcp-server...
+2025-10-18T16:46:44.153Z [LOG] MCP client for github-mcp-server connected, took 871ms
+2025-10-18T16:46:44.153Z [LOG] Started MCP client for remote server github-mcp-server
+2025-10-18T16:46:44.153Z [LOG] GitHub MCP server configured after authentication
+2025-10-18T16:47:43.909Z [INFO]  
+2025-10-18T16:49:39.171Z [INFO]  
+2025-10-18T17:02:14.666Z [INFO]  
+2025-10-18T18:28:59.276Z [ERROR] Pending tool call with ID tooluse_Pfh7Zxz4RfmttbqUQsVM_w not found
+2025-10-18T18:29:25.904Z [INFO]  
+2025-10-18T18:31:05.363Z [INFO]  
+2025-10-18T18:41:18.769Z [INFO]  
+2025-10-18T18:44:25.614Z [INFO]  
+2025-10-19T08:39:33.111Z [INFO]  
+2025-10-19T08:48:14.373Z [INFO]  

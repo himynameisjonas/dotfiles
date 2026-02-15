@@ -7,6 +7,39 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "colorize_brackets": true,
+  "context_servers": {
+    "mcp-server-buildkite": {
+      "enabled": true,
+      "remote": false,
+      "settings": {
+        "buildkite_api_token": "BUILDKITE_API_TOKEN"
+      }
+    },
+    "ember": {
+      "enabled": true,
+      "command": "npx",
+      "args": [
+        "-y",
+        "ember-mcp"
+      ],
+      "env": {}
+    },
+    "sentry": {
+      "enabled": true,
+      "command": "npx",
+      "args": [
+        "@sentry/mcp-server@latest",
+        "--host=errors.teamtailor.com",
+      ],
+      "env": {}
+    },
+    "browsermcp": {
+      "enabled": true,
+      "command": "npx",
+      "args": ["@browsermcp/mcp@latest"]
+    }
+  },
   "icon_theme": "Catppuccin Frappé",
   "features": {
     "edit_prediction_provider": "zed"
@@ -15,39 +48,87 @@
     {
       "host": "192.168.1.158",
       "username": "jonas",
+      "args": [],
       "projects": [
         {
-          "paths": ["~/minecraft"]
+          "paths": [
+            "/Users/jonas"
+          ]
         },
         {
-          "paths": ["~/obsidian"]
+          "paths": [
+            "/Users/jonas/code/posse_party"
+          ]
         },
         {
-          "paths": ["~/plexbox"]
+          "paths": [
+            "/opt"
+          ]
         },
         {
-          "paths": ["~/plexbox/arr"]
+          "paths": [
+            "~/minecraft"
+          ]
+        },
+        {
+          "paths": [
+            "~/obsidian"
+          ]
+        },
+        {
+          "paths": [
+            "~/plexbox"
+          ]
+        },
+        {
+          "paths": [
+            "~/plexbox/arr"
+          ]
         }
       ]
     },
     {
       "host": "evil-ex-1",
       "username": "pi",
+      "args": [],
       "projects": [
         {
-          "paths": ["~/evil-exes"]
+          "paths": [
+            "~/evil-exes"
+          ]
         }
       ]
     },
     {
       "host": "evil-ex-3",
       "username": "pi",
+      "args": [],
       "projects": [
         {
-          "paths": ["/mnt/nfs-ssd/zigbee2mqtt"]
+          "paths": [
+            "/mnt/nfs-ssd/zigbee2mqtt"
+          ]
         },
         {
-          "paths": ["~/evil-exes"]
+          "paths": [
+            "~/evil-exes"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "allthingsmini",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "tacocat",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/opt"
+          ]
         }
       ]
     }
@@ -70,34 +151,30 @@
   },
 
   "agent": {
-    "inline_assistant_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-latest"
-    },
-    "profiles": {
-      "ask,-no-code": {
-        "name": "Ask, no code",
-        "tools": {
-          "contents": false,
-          "diagnostics": false,
-          "fetch": true,
-          "list_directory": false,
-          "now": true,
-          "find_path": false,
-          "read_file": true,
-          "grep": false,
-          "thinking": true,
-          "web_search": true
-        },
-        "enable_all_context_servers": false,
-        "context_servers": {}
+    "favorite_models": [
+      {
+        "provider": "copilot_chat",
+        "model": "gpt-5-codex"
+      },
+      {
+        "provider": "copilot_chat",
+        "model": "gemini-3-pro-preview"
+      },
+      {
+        "provider": "copilot_chat",
+        "model": "gpt-5.2"
       }
+    ],
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
     },
+
     "default_profile": "write",
     "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet"
+      "model": "gpt-5.2"
     },
     "inline_alternatives": [
       {
@@ -105,7 +182,6 @@
         "model": "gpt-4o"
       }
     ],
-    "version": "2",
     "enabled": true
   },
 

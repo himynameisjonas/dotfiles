@@ -1,0 +1,7 @@
+2025-10-14T07:02:22.718Z [LOG] Using Copilot API endpoint: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-14T07:02:22.719Z [LOG] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-14T07:02:22.719Z [LOG] Creating MCP client for github-mcp-server...
+2025-10-14T07:02:22.722Z [LOG] Connecting MCP client for github-mcp-server...
+2025-10-14T07:02:23.705Z [LOG] MCP client for github-mcp-server connected, took 983ms
+2025-10-14T07:02:23.705Z [LOG] Started MCP client for remote server github-mcp-server
+2025-10-14T07:02:23.705Z [LOG] GitHub MCP server configured after authentication

@@ -1,0 +1,12 @@
+{
+  "banner": "never",
+  "render_markdown": true,
+  "screen_reader": false,
+  "theme": "auto",
+  "trusted_folders": [
+    "/Users/jonas/code/teamtailor",
+    "/Users/jonas/code/raycast-extensions/gif-search",
+    "/Users/jonas/code/ordsnille-rails",
+    "/Users/jonas/code/everyday"
+  ]
+}

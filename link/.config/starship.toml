@@ -1,0 +1,28 @@
+# # format="""
+# # ${custom.jj}
+# # $all
+# # """
+
+# # Move the directory to the second line
+# format = '$all$directory$character'
+
+# [custom.jj]
+# command = "prompt"
+# format = "$output"
+# ignore_timeout = true
+# shell = ["starship-jj", "--ignore-working-copy", "starship"]
+# use_stdin = false
+# when = true
+
+
+[ruby]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[package]
+disabled = true
+
+[aws]
+disabled = true

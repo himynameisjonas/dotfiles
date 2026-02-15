@@ -1,0 +1,757 @@
+2025-11-02T13:06:03.880Z [INFO] Starting Copilot CLI: 0.0.353
+Commit: f8fd3e3
+2025-11-02T13:06:03.880Z [INFO] Node.js version: v22.14.0
+2025-11-02T13:06:03.898Z [INFO] Login status unknown
+2025-11-02T13:06:03.913Z [ERROR] Error checking for updates: TypeError: Cannot read properties of undefined (reading 'paths')
+2025-11-02T13:06:04.672Z [INFO] Logged in with gh as user: himynameisjonas
+2025-11-02T13:06:04.927Z [LOG] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2025-11-02T13:06:04.927Z [LOG] Creating MCP client for github-mcp-server...
+2025-11-02T13:06:04.930Z [LOG] Connecting MCP client for github-mcp-server...
+2025-11-02T13:06:05.699Z [LOG] MCP client for github-mcp-server connected, took 769ms
+2025-11-02T13:06:05.700Z [LOG] Started MCP client for remote server github-mcp-server
+2025-11-02T13:06:05.700Z [LOG] GitHub MCP server configured after authentication
+2025-11-02T13:06:05.711Z [ERROR] Request to GitHub API at https://api.individual.githubcopilot.com/agents/swe/custom-agents/himynameisjonas/everyday-photos?exclude_invalid_config=true failed with status 404 (request ID: C432:3BC72D:1B70B58:2814BAF:6907573D), body: Not Found
+
+2025-11-02T13:06:05.712Z [WARNING] Failed to load custom agents for himynameisjonas/everyday-photos: Not Found
+
+2025-11-02T13:10:04.853Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T13:10:05.247Z [INFO]  
+2025-11-02T13:10:09.471Z [INFO] [log_94c158, x-request-id: "00000-83d51f14-e276-4e8d-9867-90391847cf83"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3077ms
+
+2025-11-02T13:10:31.664Z [INFO] [log_46ef30, x-request-id: "00000-5288f3f5-6176-4384-bef2-3b53b36aeb50"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2549ms
+
+2025-11-02T13:10:40.472Z [INFO] [log_a34ea4, x-request-id: "00000-59ece259-641b-4a06-be8c-1e27560e82f3"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3039ms
+
+2025-11-02T13:11:44.888Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T13:11:44.985Z [INFO]  
+2025-11-02T13:11:48.325Z [INFO] [log_4de02f, x-request-id: "00000-6ec13edc-8e83-4179-b55b-203dc6ee7194"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3148ms
+
+2025-11-02T13:11:54.581Z [INFO] [log_d96f28, x-request-id: "00000-644b670b-745a-4d27-802e-c7acb144602d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2585ms
+
+2025-11-02T13:11:58.930Z [INFO] [log_e9e7a6, x-request-id: "00000-0213c8aa-b8c5-4bda-b26c-a0aa9ff7bbc1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2449ms
+
+2025-11-02T13:13:27.853Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T13:13:27.952Z [INFO]  
+2025-11-02T13:13:31.684Z [INFO] [log_d07c67, x-request-id: "00000-a2120c1d-8292-48e4-8efc-a02e447b8569"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3106ms
+
+2025-11-02T13:13:37.247Z [INFO] [log_b28afb, x-request-id: "00000-ef1abf40-86c7-4fcd-9847-621a62aed6b7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2592ms
+
+2025-11-02T14:06:03.528Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:06:03.609Z [INFO]  
+2025-11-02T14:06:07.042Z [INFO] [log_eb4005, x-request-id: "00000-e356256f-d922-496e-af0f-0aa7354a3a7f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2801ms
+
+2025-11-02T14:06:14.244Z [INFO] [log_1895aa, x-request-id: "00000-79c8ed6b-2266-40d0-83a7-cfcaa6b7e489"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2804ms
+
+2025-11-02T14:07:39.857Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:07:39.940Z [INFO]  
+2025-11-02T14:07:42.694Z [INFO] [log_a3436c, x-request-id: "00000-b73e4b89-05d1-48e5-9ddb-9052d2ef5c6b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2572ms
+
+2025-11-02T14:07:47.176Z [INFO] [log_c22acc, x-request-id: "00000-540c4a91-50b0-4c71-9e13-abaaa1582f3a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2319ms
+
+2025-11-02T14:07:53.852Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:07:53.950Z [INFO]  
+2025-11-02T14:07:56.684Z [INFO] [log_f01e91, x-request-id: "00000-f5ca6a35-f620-42cc-8567-f4016deccbb4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2542ms
+
+2025-11-02T14:08:01.206Z [INFO] [log_ce2afd, x-request-id: "00000-31fa3a54-1073-491c-9026-dbda23de48f1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2620ms
+
+2025-11-02T14:08:07.196Z [INFO] [log_09bae8, x-request-id: "00000-ea79b7db-1914-489f-8d97-cfab72c4a129"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2967ms
+
+2025-11-02T14:08:11.251Z [INFO] [log_88d8de, x-request-id: "00000-ae4f980c-e05f-46a4-9348-f2fe61148abe"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2605ms
+
+2025-11-02T14:08:15.444Z [INFO] [log_a62b06, x-request-id: "00000-748f123b-40bf-486a-8ac9-d7f99c303520"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2774ms
+
+2025-11-02T14:08:28.147Z [INFO] [log_f00017, x-request-id: "00000-16519c3d-d80f-4f5b-a4f7-25729bc5262c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2879ms
+
+2025-11-02T14:08:41.321Z [INFO] [log_154b26, x-request-id: "00000-e1b616b8-6c79-43dc-a6ad-746f0dd4514a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3294ms
+
+2025-11-02T14:08:53.063Z [INFO] [log_0a8c05, x-request-id: "00000-8acd9329-0add-437b-a9f5-cb3169db19bf"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2750ms
+
+2025-11-02T14:09:00.053Z [INFO] [log_1d4618, x-request-id: "00000-84fe410d-045e-48d7-878c-f3633dd7b1ef"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2633ms
+
+2025-11-02T14:09:06.002Z [INFO] [log_edaf29, x-request-id: "00000-4bd06ca0-1a21-4e68-9011-d0d5cf348493"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3303ms
+
+2025-11-02T14:09:15.253Z [INFO] [log_c8f4c8, x-request-id: "00000-54e44e67-bcd2-482a-900c-8c8fb9015901"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2896ms
+
+2025-11-02T14:09:31.883Z [INFO] [log_486ad2, x-request-id: "00000-5a3a358b-40ae-4cea-b3ce-bc519155c94e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2936ms
+
+2025-11-02T14:09:36.415Z [INFO] [log_3ceb1d, x-request-id: "00000-f7347537-7785-413d-be39-3f53663aeffd"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2845ms
+
+2025-11-02T14:09:44.453Z [INFO] [log_dbdd4b, x-request-id: "00000-4cb4f89b-941b-4778-a53a-66ecb6ac42b3"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4146ms
+
+2025-11-02T14:09:49.484Z [INFO] [log_7ff0d7, x-request-id: "00000-d872326e-a546-461e-aee8-14bdc7f201aa"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2827ms
+
+2025-11-02T14:09:55.410Z [INFO] [log_253401, x-request-id: "00000-a3754152-8d84-4107-9fb9-03debb22e2eb"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3110ms
+
+2025-11-02T14:10:35.342Z [INFO] [log_186990, x-request-id: "00000-56f47405-a4b2-40e8-860d-8029d6dbe76b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3043ms
+
+2025-11-02T14:10:41.137Z [INFO] [log_08a112, x-request-id: "00000-d96b99cb-d361-4b1f-8c21-67f01b31770b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3189ms
+
+2025-11-02T14:10:47.318Z [INFO] [log_27013c, x-request-id: "00000-b0833b2d-8266-4497-9e63-e7aeb4c7b87a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3319ms
+
+2025-11-02T14:10:59.630Z [INFO] [log_60d482, x-request-id: "00000-64f1f5ca-3310-4ee3-8a04-9db113d62766"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3605ms
+
+2025-11-02T14:11:05.948Z [INFO] [log_4dcd80, x-request-id: "00000-49707f91-ccd3-49ce-8649-74d509cd3b80"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4078ms
+
+2025-11-02T14:11:12.195Z [INFO] [log_a8b9c7, x-request-id: "00000-81157829-5521-4d1c-bed2-e2f5a59caf9c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4043ms
+
+2025-11-02T14:11:25.184Z [INFO] [log_be2fe0, x-request-id: "00000-ab04926a-c877-493e-bb95-8b8feeb5e81f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3067ms
+
+2025-11-02T14:11:30.321Z [INFO] [log_4ff220, x-request-id: "00000-105b23b3-87c2-462c-93be-3f8b9eb6dfb1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4058ms
+
+2025-11-02T14:11:35.951Z [INFO] [log_049edb, x-request-id: "00000-1ebaa213-3a97-414f-a201-8a57f2b9ff90"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2756ms
+
+2025-11-02T14:11:44.070Z [INFO] [log_deb951, x-request-id: "00000-953ceaae-b733-48fe-ba2b-a21c81bb5dea"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3579ms
+
+2025-11-02T14:11:53.535Z [INFO] [log_ff90d8, x-request-id: "00000-35cf13ff-4503-4eaf-864c-5e048ffc3d7a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4503ms
+
+2025-11-02T14:12:00.215Z [INFO] [log_088640, x-request-id: "00000-17b97b6e-0429-4ded-a67a-7122b2ba35d4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4368ms
+
+2025-11-02T14:12:05.558Z [INFO] [log_0df769, x-request-id: "00000-76c127df-4806-4202-aac9-55bc487a234a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3815ms
+
+2025-11-02T14:12:18.996Z [ERROR] Each child in a list should have a unique "key" prop.
+
+Check the render method of `Box`. It was passed a child from Bzn. See https://react.dev/link/warning-keys for more information.
+
+2025-11-02T14:12:22.623Z [INFO] [log_440152, x-request-id: "00000-222f4184-0b9f-4b6a-8e7f-47101314a524"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3742ms
+
+2025-11-02T14:12:29.610Z [INFO] [log_f75ae1, x-request-id: "00000-44e128fd-5801-499c-865c-e8afef09e437"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4486ms
+
+2025-11-02T14:12:35.551Z [INFO] [log_dfe3ea, x-request-id: "00000-4c654718-6847-46e6-926e-6ba253f282fc"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3711ms
+
+2025-11-02T14:14:52.962Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:14:53.055Z [INFO]  
+2025-11-02T14:14:58.300Z [INFO] [log_a212ef, x-request-id: "00000-17c12533-a39d-4350-8b4d-4083bfe0fd3f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4561ms
+
+2025-11-02T14:15:05.717Z [INFO] [log_b31051, x-request-id: "00000-bea5ac9e-3187-465f-982c-787e2727f99e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3663ms
+
+2025-11-02T14:15:18.115Z [INFO] [log_96e76f, x-request-id: "00000-ebf22046-ff5b-42b8-8cf1-ce42ff72847f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2956ms
+
+2025-11-02T14:15:24.221Z [INFO] [log_a25561, x-request-id: "00000-a1f70f0d-48ef-48e0-9d1e-81767fbea761"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2898ms
+
+2025-11-02T14:15:58.815Z [INFO] [log_0a16b0, x-request-id: "00000-813a81c0-b13a-4b8c-8c16-af4948cdd2f2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2838ms
+
+2025-11-02T14:16:04.203Z [INFO] [log_89f52e, x-request-id: "00000-19707909-8778-4669-a156-341bef1beab1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3235ms
+
+2025-11-02T14:16:08.105Z [INFO] [log_a8e54e, x-request-id: "00000-473279a5-ca7e-42e6-acc1-9285182433f4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3299ms
+
+2025-11-02T14:16:18.001Z [INFO] [log_27218e, x-request-id: "00000-4fa304f9-9d29-4ca6-8e57-eb2306fafe5a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3398ms
+
+2025-11-02T14:16:23.435Z [INFO] [log_0b0035, x-request-id: "00000-0d790992-87af-4a52-a3f2-1180ff918e49"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2852ms
+
+2025-11-02T14:16:47.197Z [INFO] [log_0973a2, x-request-id: "00000-3b689d9e-1008-413e-baaf-d2aa2cb7de50"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3157ms
+
+2025-11-02T14:18:09.631Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:18:09.729Z [INFO]  
+2025-11-02T14:18:13.602Z [INFO] [log_ff4b41, x-request-id: "00000-16f4f81f-96f8-4a71-baaf-f1faec624727"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3506ms
+
+2025-11-02T14:18:21.163Z [INFO] [log_a6968c, x-request-id: "00000-9f35c70b-3b53-4cc8-be31-2a63c07f1f09"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3703ms
+
+2025-11-02T14:18:25.925Z [INFO] [log_0a8714, x-request-id: "00000-6ee7877e-d3e8-4a23-bd1b-9a5441d5c898"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3012ms
+
+2025-11-02T14:19:14.637Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:19:14.732Z [INFO]  
+2025-11-02T14:19:18.623Z [INFO] [log_d1200e, x-request-id: "00000-86f11544-09f0-4cb3-9c63-9454217ad94b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3680ms
+
+2025-11-02T14:19:34.934Z [INFO] [log_01e61e, x-request-id: "00000-1bc35eae-112f-4dda-a2c5-b1f08b4ff669"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3745ms
+
+2025-11-02T14:19:40.207Z [INFO] [log_2a3f2e, x-request-id: "00000-47f786d8-755b-45cc-b4b8-6804ca6c3042"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3617ms
+
+2025-11-02T14:19:47.170Z [INFO] [log_8b9493, x-request-id: "00000-1c8581b1-d331-4bbc-a984-d00e13ec6810"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3412ms
+
+2025-11-02T14:19:52.969Z [INFO] [log_3b3ec3, x-request-id: "00000-e21130b4-c212-4486-9238-2f063e1e81de"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2815ms
+
+2025-11-02T14:20:51.637Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:20:51.734Z [INFO]  
+2025-11-02T14:20:55.282Z [INFO] [log_6a8f03, x-request-id: "00000-27033bb2-e2f6-42f5-ac2e-b86a253af42a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3256ms
+
+2025-11-02T14:21:00.295Z [INFO] [log_c722fd, x-request-id: "00000-a3e168ac-ae7a-45a8-9100-4f67b5559887"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2950ms
+
+2025-11-02T14:21:12.676Z [INFO] [log_f440b6, x-request-id: "00000-7777aed8-08e9-42c2-b89f-ca8819fbb24c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3095ms
+
+2025-11-02T14:21:18.465Z [INFO] [log_d8468b, x-request-id: "00000-37ae8bcf-cb72-40e5-8676-d14ae3b71ace"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3069ms
+
+2025-11-02T14:21:24.365Z [INFO] [log_af4ae9, x-request-id: "00000-a879d676-2b9c-4de6-b2f6-c0f0e32abc97"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3369ms
+
+2025-11-02T14:21:35.608Z [INFO] [log_3575c0, x-request-id: "00000-e87462a4-834c-41c6-b33e-8354b04f2330"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3289ms
+
+2025-11-02T14:21:42.781Z [INFO] [log_1d6ae3, x-request-id: "00000-6a6ec7de-b5d2-4e63-845a-f91bb3eef105"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3959ms
+
+2025-11-02T14:21:47.496Z [INFO] [log_b96855, x-request-id: "00000-4c45fe3c-e33f-44a8-b6b1-b02e2fdeb391"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3174ms
+
+2025-11-02T14:22:14.228Z [INFO] [log_050d8b, x-request-id: "00000-7ddc6ebc-305e-4ca4-adf4-03d2664aff90"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3123ms
+
+2025-11-02T14:22:18.861Z [INFO] [log_bf15a8, x-request-id: "00000-b386372b-22b7-4b60-9b1b-4b384396ac90"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3399ms
+
+2025-11-02T14:22:30.630Z [INFO] [log_631ed5, x-request-id: "00000-9c2db33f-43ad-4994-ac51-78f38db28da2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3686ms
+
+2025-11-02T14:22:36.752Z [INFO] [log_a7dbe0, x-request-id: "00000-f0b935c6-f54e-4446-b9ba-b307db6f6633"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3724ms
+
+2025-11-02T14:22:50.772Z [INFO] [log_d77bf0, x-request-id: "00000-e900294e-8d47-4c9a-b7ab-d4da254e5f19"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4067ms
+
+2025-11-02T14:22:56.762Z [INFO] [log_b15a2f, x-request-id: "00000-c9c18982-1d57-4327-b7c6-82c97b6fb997"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3396ms
+
+2025-11-02T14:23:03.065Z [INFO] [log_d88def, x-request-id: "00000-facf40dd-2c06-4ee8-a019-7b5705154389"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3238ms
+
+2025-11-02T14:23:08.001Z [INFO] [log_88dd45, x-request-id: "00000-a33c2f98-0a48-4675-acb6-5b525d1ddf29"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3334ms
+
+2025-11-02T14:23:15.410Z [INFO] [log_f38975, x-request-id: "00000-5c75c7f4-7af7-42dc-8c20-e977e4dae795"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3671ms
+
+2025-11-02T14:26:04.640Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:26:04.738Z [INFO]  
+2025-11-02T14:26:09.843Z [INFO] [log_c73161, x-request-id: "00000-fa925023-a2a4-4c35-b1cf-55ab6555e4a7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4437ms
+
+2025-11-02T14:26:22.439Z [INFO] [log_90a56d, x-request-id: "00000-32a2dbb0-6e85-45a8-ae22-d3394efe78db"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4277ms
+
+2025-11-02T14:26:31.348Z [INFO] [log_0da7b2, x-request-id: "00000-f3708f00-1ea1-42b4-833b-3e5a5d2e29a7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3408ms
+
+2025-11-02T14:27:25.111Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:27:25.206Z [INFO]  
+2025-11-02T14:27:27.647Z [ERROR] error (Request-ID undefined)
+2025-11-02T14:27:27.647Z [ERROR] {
+  "stack": "CAPIError: Request was aborted.\n    at t.fromAPIError (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1905:898)\n    at J1e.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1905:5284)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Ude.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1906:1431)\n    at async Bil (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2456:573)\n    at async t.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2460:58389)\n    at async z7n (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2486:19713)\n    at async epl (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2486:16987)",
+  "message": "Request was aborted.",
+  "name": "CAPIError"
+}
+2025-11-02T14:27:27.647Z [ERROR] Retry after is not set. Giving up.
+2025-11-02T14:27:27.647Z [ERROR] error
+2025-11-02T14:27:27.647Z [ERROR] {
+  "name": "CAPIError"
+}
+2025-11-02T14:27:30.100Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:27:30.198Z [INFO]  
+2025-11-02T14:27:34.941Z [INFO] [log_82b0ce, x-request-id: "00000-c28f9b58-09bd-4edd-8ca0-78b3676c2ae5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4522ms
+
+2025-11-02T14:27:45.343Z [INFO] [log_bdc4fb, x-request-id: "00000-7c566f5e-0875-4462-845d-4679255cb610"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3487ms
+
+2025-11-02T14:27:54.011Z [INFO] [log_182006, x-request-id: "00000-37d98d0e-0f7b-451e-adee-e8d745e6d4f6"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3879ms
+
+2025-11-02T14:28:22.946Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:28:23.041Z [INFO]  
+2025-11-02T14:28:27.185Z [INFO] [log_ec7508, x-request-id: "00000-d611d939-9870-46fa-9507-e100a3a61038"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3817ms
+
+2025-11-02T14:28:35.061Z [INFO] [log_1613ad, x-request-id: "00000-d314a56c-609b-4e51-85ef-7f866e53d430"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3300ms
+
+2025-11-02T14:28:41.691Z [INFO] [log_6f788b, x-request-id: "00000-3043e5f0-5ab3-453a-a3e9-dfc35dfeed4e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3427ms
+
+2025-11-02T14:28:48.081Z [INFO] [log_d61691, x-request-id: "00000-df7e77e7-1a7d-48ce-8c09-b25faecb6e05"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3382ms
+
+2025-11-02T14:28:59.561Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:28:59.660Z [INFO]  
+2025-11-02T14:29:03.315Z [INFO] [log_312d71, x-request-id: "00000-1bd9b0a6-c552-416e-8fbb-506acf738fe6"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3434ms
+
+2025-11-02T14:29:08.847Z [INFO] [log_9a4a76, x-request-id: "00000-ef18343c-62dc-4444-a2d6-bbd335e88de4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3191ms
+
+2025-11-02T14:29:17.647Z [INFO] [log_715b11, x-request-id: "00000-aba81928-39aa-41bc-b3df-8d92d224cbfe"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3837ms
+
+2025-11-02T14:29:25.415Z [INFO] [log_a2f520, x-request-id: "00000-17728f97-9574-4a19-baff-47731f3d6635"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3043ms
+
+2025-11-02T14:37:52.721Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:37:52.815Z [INFO]  
+2025-11-02T14:37:57.191Z [ERROR] error (Request-ID undefined)
+2025-11-02T14:37:57.192Z [ERROR] {
+  "stack": "CAPIError: Request was aborted.\n    at t.fromAPIError (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1905:898)\n    at J1e.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1905:5284)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Ude.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1906:1431)\n    at async Bil (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2456:573)\n    at async t.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2460:58389)\n    at async z7n (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2486:19713)\n    at async epl (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2486:16987)",
+  "message": "Request was aborted.",
+  "name": "CAPIError"
+}
+2025-11-02T14:37:57.192Z [ERROR] Retry after is not set. Giving up.
+2025-11-02T14:37:57.192Z [ERROR] error
+2025-11-02T14:37:57.192Z [ERROR] {
+  "name": "CAPIError"
+}
+2025-11-02T14:38:02.921Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:38:03.014Z [INFO]  
+2025-11-02T14:38:08.085Z [INFO] [log_71de8d, x-request-id: "00000-95a6e036-008a-4402-ae93-5f6de4d50f7c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4842ms
+
+2025-11-02T14:38:14.264Z [INFO] [log_21c8fa, x-request-id: "00000-dd31d589-5fe9-44aa-85ee-f956a0880c4f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4194ms
+
+2025-11-02T14:38:20.112Z [INFO] [log_728bf2, x-request-id: "00000-4d26a932-4b0b-4f33-9015-7ee17e6b154e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3505ms
+
+2025-11-02T14:38:26.830Z [INFO] [log_56b510, x-request-id: "00000-b40f211f-e1af-423c-baf1-2f35f8eac4fb"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3447ms
+
+2025-11-02T14:39:14.239Z [INFO] [log_fccf1f, x-request-id: "00000-f6c74e24-0ad2-412a-bc9a-79a01fdd5d3e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3782ms
+
+2025-11-02T14:39:21.609Z [INFO] [log_2fb3c9, x-request-id: "00000-bef9839b-060d-499e-a1a7-96ab9dbade74"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3360ms
+
+2025-11-02T14:39:33.645Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T14:39:33.739Z [INFO]  
+2025-11-02T14:39:38.714Z [INFO] [log_1f6439, x-request-id: "00000-4e3f300e-3000-4fbc-9971-fdc2b3b2c151"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4750ms
+
+2025-11-02T14:39:50.340Z [INFO] [log_b54045, x-request-id: "00000-40eedd62-fd29-43de-982f-6e40ea1971e1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5718ms
+
+2025-11-02T14:40:18.283Z [INFO] [log_1640e1, x-request-id: "00000-7ba2efb0-09af-488b-b27a-508d95c2dd7c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3955ms
+
+2025-11-02T14:40:25.333Z [INFO] [log_1e12f1, x-request-id: "00000-9bb9507e-2492-4469-befa-2f0c60e53385"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3449ms
+
+2025-11-02T15:22:07.139Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:22:07.230Z [INFO]  
+2025-11-02T15:22:13.083Z [INFO] [log_a9fa0d, x-request-id: "00000-de8ac11b-fdcf-4884-9994-188a8fa2bc22"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5188ms
+
+2025-11-02T15:22:28.592Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:22:28.684Z [INFO]  
+2025-11-02T15:22:33.419Z [INFO] [log_8ad5c2, x-request-id: "00000-ace3481a-9fbe-41ac-b3a0-ce017ed082bb"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4497ms
+
+2025-11-02T15:22:44.081Z [INFO] [log_b5a1b9, x-request-id: "00000-eff055ec-37c8-40a9-b721-014a54863fe1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4879ms
+
+2025-11-02T15:22:57.288Z [INFO] [log_d41d21, x-request-id: "00000-ebeeb046-2cf9-49c8-82de-bf69eae3c1b4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3829ms
+
+2025-11-02T15:23:22.948Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:23:23.043Z [INFO]  
+2025-11-02T15:23:26.735Z [INFO] [log_3cfeea, x-request-id: "00000-555ecc44-5f72-45e3-a8de-a2bdf846f07d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3459ms
+
+2025-11-02T15:23:38.931Z [INFO] [log_42ace1, x-request-id: "00000-831d72f8-815b-40d6-91d5-2b11d6ba0663"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4015ms
+
+2025-11-02T15:27:21.829Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:27:21.930Z [INFO]  
+2025-11-02T15:27:28.040Z [INFO] [log_83bb81, x-request-id: "00000-2934bceb-d894-4a47-9f86-818e508085bd"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5432ms
+
+2025-11-02T15:27:34.828Z [INFO] [log_edf55a, x-request-id: "00000-4ebda7d5-f8ad-44bb-970f-c5164151f144"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5896ms
+
+2025-11-02T15:27:59.882Z [INFO] [log_ef89c7, x-request-id: "00000-7fd0784a-823c-4fa9-bce0-c339583c8f6a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4668ms
+
+2025-11-02T15:28:07.653Z [INFO] [log_515a02, x-request-id: "00000-14038c8f-ec82-4b8f-ad0a-88b216352794"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3678ms
+
+2025-11-02T15:28:15.596Z [INFO] [log_519759, x-request-id: "00000-56b76e27-5823-46b2-af69-835e456d4633"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4847ms
+
+2025-11-02T15:29:24.759Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:29:24.854Z [INFO]  
+2025-11-02T15:29:30.176Z [INFO] [log_a603ef, x-request-id: "00000-4d586f92-0cb9-402b-b483-a944e49c9747"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4942ms
+
+2025-11-02T15:29:39.338Z [INFO] [log_05c19b, x-request-id: "00000-a42e6cee-81a7-443a-92c2-41ea13272d54"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5011ms
+
+2025-11-02T15:29:53.867Z [INFO] [log_fa6626, x-request-id: "00000-d851d8ac-e0ab-4ad9-af39-ab2149ce1727"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3550ms
+
+2025-11-02T15:30:05.383Z [INFO] [log_2db33d, x-request-id: "00000-9e30b5e9-196a-42e1-b220-63ffdff821a8"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3783ms
+
+2025-11-02T15:30:42.130Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:30:42.228Z [INFO]  
+2025-11-02T15:30:47.338Z [INFO] [log_d23396, x-request-id: "00000-52db1c41-e610-4e58-b40c-78fd7fa63e6e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4857ms
+
+2025-11-02T15:30:56.394Z [INFO] [log_2307a9, x-request-id: "00000-d557d3ad-62bc-4245-a771-e6d9299011f9"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4794ms
+
+2025-11-02T15:31:09.566Z [INFO] [log_7f8772, x-request-id: "00000-0c4b1cb6-0df0-457f-bbe2-7b8b66820135"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3544ms
+
+2025-11-02T15:31:22.500Z [INFO] [log_341676, x-request-id: "00000-8d0fb621-85fb-49a7-a3a4-9a1d1999a8bd"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4083ms
+
+2025-11-02T15:32:15.162Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T15:32:15.259Z [INFO]  
+2025-11-02T15:32:20.499Z [INFO] [log_c3c4fd, x-request-id: "00000-64475051-cf5f-4aad-9210-c92fe0ed136a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4899ms
+
+2025-11-02T15:33:25.299Z [INFO] [log_28b7f7, x-request-id: "00000-8ffe336a-f454-4db8-8704-0a2409c189a7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4921ms
+
+2025-11-02T19:06:17.857Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:06:17.954Z [INFO]  
+2025-11-02T19:06:24.379Z [INFO] [log_50b95d, x-request-id: "00000-1504d097-c429-450c-a6c3-cfa37401a86e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5714ms
+
+2025-11-02T19:06:32.406Z [INFO] [log_770cae, x-request-id: "00000-08f780dd-c8bc-4f10-a4cd-56a33e50a2f7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5494ms
+
+2025-11-02T19:07:36.081Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:07:36.179Z [INFO]  
+2025-11-02T19:07:40.222Z [INFO] [log_124144, x-request-id: "00000-630d5b50-5c9e-4242-8d53-63fb99cba388"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3785ms
+
+2025-11-02T19:08:05.457Z [INFO] [log_baa119, x-request-id: "00000-78ef23f2-794f-4660-8a5d-da753a1c4d40"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3488ms
+
+2025-11-02T19:09:44.863Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:09:44.952Z [INFO]  
+2025-11-02T19:09:49.209Z [INFO] [log_735bed, x-request-id: "00000-55364fd9-2687-434d-b6ca-15d11715c1b3"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3890ms
+
+2025-11-02T19:10:03.035Z [INFO] [log_eadcb2, x-request-id: "00000-acd46491-cdba-49e7-a721-08c4a956741f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3747ms
+
+2025-11-02T19:10:22.051Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:10:22.147Z [INFO]  
+2025-11-02T19:10:26.542Z [INFO] [log_700e41, x-request-id: "00000-a209a379-3cd8-4baa-a5ae-884cf91bafdb"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4146ms
+
+2025-11-02T19:10:39.603Z [INFO] [log_cd973e, x-request-id: "00000-83010da2-9dad-4202-b369-18ecf618ea35"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3594ms
+
+2025-11-02T19:12:55.127Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:12:55.221Z [INFO]  
+2025-11-02T19:13:00.258Z [INFO] [log_911df4, x-request-id: "00000-07099859-42fc-4b64-97f1-7ca000012247"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4346ms
+
+2025-11-02T19:13:31.491Z [INFO] [log_4e442a, x-request-id: "00000-6128db52-1cff-45df-848d-3e97e295818d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4058ms
+
+2025-11-02T19:23:23.056Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:23:23.148Z [INFO]  
+2025-11-02T19:23:28.151Z [INFO] [log_53729f, x-request-id: "00000-568ecf06-192c-4567-a11b-30ad1200218f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4304ms
+
+2025-11-02T19:23:46.071Z [INFO] [log_4891a4, x-request-id: "00000-0e586f09-f423-47f2-82c6-981c18ac318d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3811ms
+
+2025-11-02T19:24:56.417Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:24:56.510Z [INFO]  
+2025-11-02T19:25:02.164Z [INFO] [log_8ca7a7, x-request-id: "00000-c17fc039-e653-4aa8-9ab7-70fcc6f092b5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5392ms
+
+2025-11-02T19:25:29.958Z [INFO] [log_e061f4, x-request-id: "00000-a876572a-6bb7-48d8-8efe-a605c32572a2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5487ms
+
+2025-11-02T19:27:52.158Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:27:52.252Z [INFO]  
+2025-11-02T19:27:59.088Z [INFO] [log_52f810, x-request-id: "00000-97e07854-289c-4ec0-977f-a46b5254b6b0"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6132ms
+
+2025-11-02T19:28:18.411Z [INFO] [log_cf6904, x-request-id: "00000-c41e5c4b-9d3c-48cb-bb8c-69f8f21ac917"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5921ms
+
+2025-11-02T19:28:58.938Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:28:59.032Z [INFO]  
+2025-11-02T19:29:05.146Z [INFO] [log_1a17e9, x-request-id: "00000-f80e4213-8248-4e73-9faf-0f935ceb095b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5849ms
+
+2025-11-02T19:29:36.708Z [INFO] [log_3408a3, x-request-id: "00000-bbf9ab49-bd59-450a-966d-573882e4467a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5520ms
+
+2025-11-02T19:30:11.739Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:30:11.831Z [INFO]  
+2025-11-02T19:30:18.314Z [INFO] [log_e23bad, x-request-id: "00000-7f075b6d-c067-4290-b302-37aecbf4e10c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6102ms
+
+2025-11-02T19:30:26.475Z [INFO] [log_ad25da, x-request-id: "00000-f909cd61-62cb-41f5-965c-7fcd36db34b0"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5749ms
+
+2025-11-02T19:30:49.466Z [INFO] [log_289796, x-request-id: "00000-646f26ce-aadb-403e-97e0-e829222480b5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6111ms
+
+2025-11-02T19:31:56.677Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:31:56.769Z [INFO]  
+2025-11-02T19:32:02.382Z [INFO] [log_1b903f, x-request-id: "00000-c188b52d-682f-4d55-b2a8-72926a20fff2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5345ms
+
+2025-11-02T19:32:33.615Z [INFO] [log_df2a5d, x-request-id: "00000-f3431ba0-34ef-4ab1-905b-ed8b5df3a0fc"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6083ms
+
+2025-11-02T19:34:06.535Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:34:06.623Z [INFO]  
+2025-11-02T19:34:12.227Z [INFO] [log_b8cc34, x-request-id: "00000-32e43232-bd36-4ab6-9aae-900b9cca04a0"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5333ms
+
+2025-11-02T19:34:37.556Z [INFO] [log_0f80fa, x-request-id: "00000-94649577-f437-491a-851f-8987537fdd9f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6465ms
+
+2025-11-02T19:42:50.812Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:42:50.900Z [INFO]  
+2025-11-02T19:47:52.043Z [INFO] [log_40517d] connection timed out - retrying, 5 attempts remaining
+
+2025-11-02T19:48:45.873Z [ERROR] error (Request-ID undefined)
+2025-11-02T19:48:45.873Z [ERROR] {
+  "stack": "CAPIError: Request was aborted.\n    at t.fromAPIError (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1905:898)\n    at J1e.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1905:5284)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Ude.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:1906:1431)\n    at async Bil (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2456:573)\n    at async t.getCompletionWithTools (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2460:58389)\n    at async z7n (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2486:19713)\n    at async epl (file:///Users/jonas/.volta/tools/image/packages/@github/copilot/lib/node_modules/@github/copilot/index.js:2486:16987)",
+  "message": "Request was aborted.",
+  "name": "CAPIError"
+}
+2025-11-02T19:48:45.873Z [ERROR] Retry after is not set. Giving up.
+2025-11-02T19:48:45.873Z [ERROR] error
+2025-11-02T19:48:45.873Z [ERROR] {
+  "name": "CAPIError"
+}
+2025-11-02T19:48:48.574Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:48:48.635Z [INFO]  
+2025-11-02T19:48:54.625Z [INFO] [log_6b01e2, x-request-id: "00000-ef1a0f56-a732-4583-b420-80e162a5b12b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5691ms
+
+2025-11-02T19:49:04.448Z [INFO] [log_46bdc4, x-request-id: "00000-856a3032-ba3e-4e09-95bb-1c6476197ed0"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5592ms
+
+2025-11-02T19:49:31.190Z [INFO] [log_c12f5f, x-request-id: "00000-a73870cd-f040-41cd-80b5-abb9755c4a4e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3818ms
+
+2025-11-02T19:52:52.901Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:52:52.994Z [INFO]  
+2025-11-02T19:52:59.764Z [INFO] [log_3d8967, x-request-id: "00000-41ea8351-d5f3-4d7a-bf98-a2ca5125244a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6030ms
+
+2025-11-02T19:53:29.063Z [INFO] [log_feb506, x-request-id: "00000-ca91efac-d76b-4d39-83d3-b3c1a3676987"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 6335ms
+
+2025-11-02T19:54:21.755Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:54:21.846Z [INFO]  
+2025-11-02T19:54:27.512Z [INFO] [log_7f882b, x-request-id: "00000-1d66aafa-3b8a-4aa9-99e4-54e57f84cbe3"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5394ms
+
+2025-11-02T19:54:58.257Z [INFO] [log_e533fc, x-request-id: "00000-5099104e-34c6-4a6d-b789-e65604162ac1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5284ms
+
+2025-11-02T19:55:48.500Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:55:48.590Z [INFO]  
+2025-11-02T19:55:53.956Z [INFO] [log_cc35ea, x-request-id: "00000-70530699-050a-457f-8352-970d7d0313eb"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4980ms
+
+2025-11-02T19:56:18.115Z [INFO] [log_ee9ceb, x-request-id: "00000-f5be4ece-a00b-4009-8fcb-8eabd0528abe"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5640ms
+
+2025-11-02T19:57:42.008Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:57:42.101Z [INFO]  
+2025-11-02T19:57:46.998Z [INFO] [log_8d7487, x-request-id: "00000-d840033a-7e84-4939-b679-033861c8bb68"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4613ms
+
+2025-11-02T19:59:39.994Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T19:59:40.087Z [INFO]  
+2025-11-02T19:59:45.476Z [INFO] [log_4e0432, x-request-id: "00000-71302f8f-e517-4bae-9970-b5e893656dc5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5004ms
+
+2025-11-02T20:00:03.590Z [INFO] [log_675001, x-request-id: "00000-520a3df7-fa41-4ee4-b4e0-558bea7d61b6"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4783ms
+
+2025-11-02T20:01:56.458Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:01:56.550Z [INFO]  
+2025-11-02T20:02:02.389Z [INFO] [log_bbddb5, x-request-id: "00000-b48378d8-9edf-49db-9a34-3164fae46a1b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5452ms
+
+2025-11-02T20:02:21.642Z [INFO] [log_9426ea, x-request-id: "00000-20ffa42e-3967-4449-a6a8-d0f637eeb0f2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5634ms
+
+2025-11-02T20:05:51.120Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:05:51.213Z [INFO]  
+2025-11-02T20:05:55.804Z [INFO] [log_252aec, x-request-id: "00000-cdaef9d2-e204-4fe0-97b1-953c7cc3194c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3869ms
+
+2025-11-02T20:06:02.774Z [INFO] [log_712655, x-request-id: "00000-c25d00b4-ff86-4485-b92b-be0186f0c1db"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3546ms
+
+2025-11-02T20:06:08.558Z [INFO] [log_cc5455, x-request-id: "00000-517b803f-b743-47f5-ac1d-642892449f22"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4600ms
+
+2025-11-02T20:06:13.042Z [INFO] [log_32a5d7, x-request-id: "00000-b4587b50-e9bc-438b-9493-49e588abb097"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3456ms
+
+2025-11-02T20:06:17.671Z [INFO] [log_869c5e, x-request-id: "00000-e745d9b0-8d4b-46eb-89e1-7e2aa2bdbcb9"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3466ms
+
+2025-11-02T20:06:29.001Z [INFO] [log_b20d06, x-request-id: "00000-e4928002-218e-4c7c-a7d3-959bebfea112"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4349ms
+
+2025-11-02T20:06:46.958Z [INFO] [log_30e332, x-request-id: "00000-f986e050-9adc-4611-86d9-33131a93b05d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3729ms
+
+2025-11-02T20:09:05.283Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:09:05.378Z [INFO]  
+2025-11-02T20:09:11.650Z [INFO] [log_4b5329, x-request-id: "00000-f4941b34-0f02-4a20-98dc-7244e9a4b523"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5509ms
+
+2025-11-02T20:09:27.661Z [INFO] [log_df5cfb, x-request-id: "00000-dedd7008-5283-4390-9cb4-19ade2fc63ea"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4934ms
+
+2025-11-02T20:10:24.149Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:10:24.242Z [INFO]  
+2025-11-02T20:10:28.654Z [INFO] [log_f8fdfc, x-request-id: "00000-e1ced66d-9639-4c42-9cce-e9b7b8829d6d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4121ms
+
+2025-11-02T20:10:42.057Z [INFO] [log_91934d, x-request-id: "00000-6714d59d-d64f-4b47-abda-3c48c0e356b6"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4433ms
+
+2025-11-02T20:11:35.083Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:11:35.169Z [INFO]  
+2025-11-02T20:11:40.229Z [INFO] [log_68e498, x-request-id: "00000-743effeb-7519-41ef-b26b-4faef1a65a45"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4673ms
+
+2025-11-02T20:11:49.682Z [INFO] [log_560e0d, x-request-id: "00000-dd4d68fd-7304-4998-877d-417b84a6d6b2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4311ms
+
+2025-11-02T20:13:12.343Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:13:12.434Z [INFO]  
+2025-11-02T20:13:17.326Z [INFO] [log_8b46bd, x-request-id: "00000-f952d200-e23f-42a3-a632-53f2023a1cc9"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4593ms
+
+2025-11-02T20:13:23.653Z [INFO] [log_d3c676, x-request-id: "00000-4d267406-d95b-46c9-a83d-8a01d9ec3a0f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4411ms
+
+2025-11-02T20:13:31.234Z [INFO] [log_1cee76, x-request-id: "00000-2bacb091-1686-43fb-bd49-e2b92c1568a9"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3222ms
+
+2025-11-02T20:15:53.208Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:15:53.289Z [INFO]  
+2025-11-02T20:15:57.555Z [INFO] [log_6fc551, x-request-id: "00000-024660b7-3779-4020-a504-4c5a5a963d8c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3566ms
+
+2025-11-02T20:16:03.129Z [INFO] [log_4d2902, x-request-id: "00000-b283fafd-a08c-4253-be23-c2e193c5608d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3527ms
+
+2025-11-02T20:16:07.355Z [INFO] [log_2bab39, x-request-id: "00000-943718d9-9025-419c-86d9-11cf228dd849"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3250ms
+
+2025-11-02T20:16:13.130Z [INFO] [log_0bc012, x-request-id: "00000-40f90b17-e998-4c98-a36e-46ad1f35bf12"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3559ms
+
+2025-11-02T20:16:20.295Z [INFO] [log_cc5a31, x-request-id: "00000-7695904a-2455-45ce-9c27-babf39bfca33"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3514ms
+
+2025-11-02T20:16:24.288Z [INFO] [log_78dd77, x-request-id: "00000-a8dcc40f-3376-4315-beaf-33d39941a7c1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3391ms
+
+2025-11-02T20:16:39.882Z [INFO] [log_23c271, x-request-id: "00000-b2a35282-3b80-43ee-8099-ea6e5b1152d5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3468ms
+
+2025-11-02T20:16:54.914Z [INFO] [log_72670a, x-request-id: "00000-98f248fa-a63e-4d6a-a980-a16bb016ba16"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3518ms
+
+2025-11-02T20:17:04.801Z [INFO] [log_4cd852, x-request-id: "00000-1783b065-f792-4824-8d50-70dcb95832a8"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4250ms
+
+2025-11-02T20:17:12.136Z [INFO] [log_1a3764, x-request-id: "00000-419f9066-f0b8-4013-9d7c-1f39f234b463"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3208ms
+
+2025-11-02T20:21:26.066Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:21:26.161Z [INFO]  
+2025-11-02T20:21:31.800Z [INFO] [log_bcb693, x-request-id: "00000-da48bd80-10bd-4343-9e53-67215ba4b44f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4865ms
+
+2025-11-02T20:21:39.477Z [INFO] [log_749ee7, x-request-id: "00000-de395553-b5bf-4c1f-b1e1-d0f765161c20"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5499ms
+
+2025-11-02T20:21:44.956Z [INFO] [log_7ae51f, x-request-id: "00000-f186ce2c-67f6-4794-a2c0-755a98ee648c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3356ms
+
+2025-11-02T20:21:49.210Z [INFO] [log_703ba8, x-request-id: "00000-8d1bda9b-7127-42eb-97a2-92c8ce750bb9"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3693ms
+
+2025-11-02T20:22:09.862Z [INFO] [log_b8b8a5, x-request-id: "00000-3d687613-fe83-4530-80a8-c179b706eb27"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3262ms
+
+2025-11-02T20:22:21.342Z [INFO] [log_d79f00, x-request-id: "00000-ceb84898-2fa8-48b9-bd2e-4e74d72a7452"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3234ms
+
+2025-11-02T20:23:34.894Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:23:34.987Z [INFO]  
+2025-11-02T20:23:45.021Z [INFO] [log_aa56b3, x-request-id: "00000-2f154b5f-8730-46f8-86dc-d66d39513824"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 9621ms
+
+2025-11-02T20:24:06.915Z [INFO] [log_f6f80d, x-request-id: "00000-96d20e98-59e1-49a5-a3c1-8bd9bad9bd3d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4811ms
+
+2025-11-02T20:24:14.204Z [INFO] [log_b57d0d, x-request-id: "00000-23dc0f3e-e715-46ca-b090-7f24262f057e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3735ms
+
+2025-11-02T20:24:40.641Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:24:40.732Z [INFO]  
+2025-11-02T20:24:45.592Z [INFO] [log_ee5a57, x-request-id: "00000-55e41cdc-d735-4037-b867-13fa3ad2e000"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4567ms
+
+2025-11-02T20:24:56.074Z [INFO] [log_122e1e, x-request-id: "00000-d0131e65-5c46-4702-a6cb-4c77abe0ee12"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4207ms
+
+2025-11-02T20:25:02.640Z [INFO] [log_e88ad6, x-request-id: "00000-6ef41823-a37d-42df-938a-634a275fa3fe"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3796ms
+
+2025-11-02T20:25:25.498Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:25:25.593Z [INFO]  
+2025-11-02T20:25:30.090Z [INFO] [log_356a93, x-request-id: "00000-cd7b9ee6-1590-4e4c-bd4c-676e9d74a897"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4198ms
+
+2025-11-02T20:25:35.519Z [INFO] [log_ed3a2c, x-request-id: "00000-66edb08f-1260-4822-87c4-0bb873a42c71"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4273ms
+
+2025-11-02T20:25:48.488Z [INFO] [log_fa630c, x-request-id: "00000-c99264ad-9b03-4742-af61-bef89cc2df5d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4209ms
+
+2025-11-02T20:25:54.398Z [INFO] [log_b2dc3f, x-request-id: "00000-a91b2ab4-2ab7-467f-b08d-de61db4f73e8"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3249ms
+
+2025-11-02T20:27:15.486Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:27:15.581Z [INFO]  
+2025-11-02T20:27:20.369Z [INFO] [log_22ddc4, x-request-id: "00000-c387dcb2-87aa-4a51-8767-3f2ba8dc4675"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4481ms
+
+2025-11-02T20:27:50.027Z [INFO] [log_489be9, x-request-id: "00000-d2ac4bef-af68-4bfa-aa76-ed3c6f344eff"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4779ms
+
+2025-11-02T20:27:56.788Z [INFO] [log_874079, x-request-id: "00000-24e5e5c2-86ad-4add-bbd7-002993508dba"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3599ms
+
+2025-11-02T20:29:24.560Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:29:24.654Z [INFO]  
+2025-11-02T20:29:29.701Z [INFO] [log_b7a4ea, x-request-id: "00000-61d791e2-9581-42d1-b055-9b9b639a3f42"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4741ms
+
+2025-11-02T20:29:36.357Z [INFO] [log_e21637, x-request-id: "00000-3406bce5-b813-4178-895a-7628169b8fc6"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4665ms
+
+2025-11-02T20:29:49.466Z [INFO] [log_aa97fd, x-request-id: "00000-96ec4a2c-7bbf-4583-893e-d2ae1d39412a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3666ms
+
+2025-11-02T20:30:05.415Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:30:05.506Z [INFO]  
+2025-11-02T20:30:11.132Z [INFO] [log_fd20eb, x-request-id: "00000-07bee5cf-85bb-42e7-ba37-7e8cf1bb7027"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5318ms
+
+2025-11-02T20:30:38.155Z [INFO] [log_ea37b3, x-request-id: "00000-71aa32f4-3a08-4daf-9bb9-48ed7101ed54"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4757ms
+
+2025-11-02T20:30:41.894Z [INFO] [log_74c186, x-request-id: "00000-02b5b2a0-a067-416b-887c-25dff879f0db"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3429ms
+
+2025-11-02T20:30:52.031Z [INFO] [log_7de1a7, x-request-id: "00000-a53a4e17-4c5b-482d-b9b5-d3fa623f4508"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3302ms
+
+2025-11-02T20:31:05.142Z [INFO] [log_52033a, x-request-id: "00000-df6d786e-9933-4915-888f-624c1dd7b47c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3318ms
+
+2025-11-02T20:31:12.516Z [INFO] [log_69c08a, x-request-id: "00000-9604f3ad-357d-4677-8c88-433329aa2084"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4077ms
+
+2025-11-02T20:31:25.351Z [INFO] [log_d7e953, x-request-id: "00000-c18fb685-331e-417f-a73d-60cbae21e6da"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3583ms
+
+2025-11-02T20:31:32.582Z [INFO] [log_1c264f, x-request-id: "00000-dad7e5de-67e0-47da-b09e-2d81ef1f877e"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5449ms
+
+2025-11-02T20:31:45.803Z [INFO] [log_8a7a58, x-request-id: "00000-4a8d5476-aea3-4859-b164-af73349ce9dc"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4164ms
+
+2025-11-02T20:31:52.649Z [INFO] [log_647d0d, x-request-id: "00000-cb956681-73d9-4cb0-a98f-632e73965396"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3806ms
+
+2025-11-02T20:31:58.236Z [INFO] [log_d24aac, x-request-id: "00000-15b0c3cf-ecbb-4aa2-9fd5-e9f9d0e40c57"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3558ms
+
+2025-11-02T20:32:00.009Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:32:00.084Z [INFO]  
+2025-11-02T20:32:04.287Z [INFO] [log_cbf1dc, x-request-id: "00000-618c4aa0-c833-4f50-9f9a-8bc1bdf0b13f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3879ms
+
+2025-11-02T20:32:10.471Z [INFO] [log_4c08f4, x-request-id: "00000-375d4b77-4e7f-4146-bc80-e5823365baa1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4013ms
+
+2025-11-02T20:32:15.087Z [INFO] [log_bef2b4, x-request-id: "00000-634abb9a-cae8-4833-bd88-10c7cd3c9b98"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3080ms
+
+2025-11-02T20:32:22.647Z [INFO] [log_8f175a, x-request-id: "00000-3d7fbf42-dd62-43a9-b845-da133b5ceef4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4094ms
+
+2025-11-02T20:32:29.212Z [INFO] [log_f2f177, x-request-id: "00000-ffc1dfe7-a53a-47a8-9399-d8a76ce10ca5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4155ms
+
+2025-11-02T20:32:36.173Z [INFO] [log_c307f3, x-request-id: "00000-2a48a24d-d4d3-4216-b5dd-42ba7f7cd166"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3421ms
+
+2025-11-02T20:32:41.292Z [INFO] [log_9a134f, x-request-id: "00000-99983e7d-79aa-43fd-9b3f-badb04972cae"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3337ms
+
+2025-11-02T20:32:49.177Z [INFO] [log_e3812b, x-request-id: "00000-1c839d0b-fa5d-4326-b671-add109d8a3cf"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5656ms
+
+2025-11-02T20:32:56.961Z [INFO] [log_88e861, x-request-id: "00000-2c9e7f48-23e8-4f40-818a-d01e1a56fdbb"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4921ms
+
+2025-11-02T20:33:02.489Z [INFO] [log_bfa371, x-request-id: "00000-2ef29831-c0ce-4358-9699-035a11b24ddc"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4130ms
+
+2025-11-02T20:33:07.646Z [INFO] [log_2075a2, x-request-id: "00000-59298ec1-b361-451c-b482-e592520314f5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3362ms
+
+2025-11-02T20:33:19.182Z [INFO] [log_bbf196, x-request-id: "00000-819355cc-878c-4754-bdd2-cb628dc9fe0c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3788ms
+
+2025-11-02T20:33:24.098Z [INFO] [log_85c78a, x-request-id: "00000-ab063988-0ab1-4c6f-82ae-20fad0e018d0"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3473ms
+
+2025-11-02T20:33:32.391Z [INFO] [log_20d458, x-request-id: "00000-459bb3a4-affb-43e8-a6d7-6981b72757d4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4613ms
+
+2025-11-02T20:33:39.812Z [INFO] [log_12d083, x-request-id: "00000-5e3ffdab-d925-42a8-b1ee-2daf91c08366"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4734ms
+
+2025-11-02T20:33:48.948Z [INFO] [log_f2669f, x-request-id: "00000-2ac132dd-2886-4886-80a6-336be354caa4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3855ms
+
+2025-11-02T20:34:14.497Z [INFO] [log_5cd6c3, x-request-id: "00000-c19e0c74-b173-4ece-81d0-ec37fe018922"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3377ms
+
+2025-11-02T20:34:19.182Z [INFO] [log_b6288c, x-request-id: "00000-4fd260d7-99ac-4c41-ba81-d35b97142571"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3278ms
+
+2025-11-02T20:34:27.757Z [INFO] [log_73a505, x-request-id: "00000-847490ae-daac-4d65-977c-bc68c4d19228"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4117ms
+
+2025-11-02T20:45:55.146Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:45:55.238Z [INFO]  
+2025-11-02T20:46:00.452Z [INFO] [log_1efa05, x-request-id: "00000-cfb8f1f8-b396-4668-8be6-18b21352b268"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4426ms
+
+2025-11-02T20:46:07.392Z [INFO] [log_0cdbec, x-request-id: "00000-6751b3b0-e179-4127-8393-f12b8e3ea551"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4456ms
+
+2025-11-02T20:46:27.411Z [INFO] [log_6915f0, x-request-id: "00000-8140c4e6-b71d-4fc0-9a92-82a44f413749"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3392ms
+
+2025-11-02T20:46:31.249Z [INFO] [log_375e68, x-request-id: "00000-5238ab24-d6ba-4fe1-bde4-f62f083694c8"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3171ms
+
+2025-11-02T20:46:40.368Z [INFO] [log_69642b, x-request-id: "00000-b4abe338-5422-4f30-83d3-eadfc40bc9af"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3153ms
+
+2025-11-02T20:48:41.326Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:48:41.378Z [INFO]  
+2025-11-02T20:48:45.784Z [INFO] [log_80eae2, x-request-id: "00000-301dd85a-7894-446a-b3c0-3b6bb441225b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4009ms
+
+2025-11-02T20:48:50.489Z [INFO] [log_c48e42, x-request-id: "00000-c0202414-b35e-47bf-b627-5db90a5af5b1"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3955ms
+
+2025-11-02T20:49:01.302Z [INFO] [log_82bdfd, x-request-id: "00000-7ce0889f-f202-452d-bc46-d420b5fb71e2"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3218ms
+
+2025-11-02T20:52:11.267Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:52:11.359Z [INFO]  
+2025-11-02T20:52:16.473Z [INFO] [log_55b118, x-request-id: "00000-851765b6-4099-4e24-8af3-189b34660997"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4346ms
+
+2025-11-02T20:52:26.427Z [INFO] [log_d15998, x-request-id: "00000-f9a0d006-68af-4933-b538-efaa7746fbe4"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3815ms
+
+2025-11-02T20:52:31.531Z [INFO] [log_3c9079, x-request-id: "00000-9b324596-2168-4be4-90f7-a3592a176571"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3416ms
+
+2025-11-02T20:52:36.333Z [INFO] [log_d0a2d0, x-request-id: "00000-1dac42ea-f4c1-4892-b293-e658ac63c00b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3082ms
+
+2025-11-02T20:54:27.726Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-02T20:54:27.816Z [INFO]  
+2025-11-02T20:54:31.945Z [INFO] [log_ef31b0, x-request-id: "00000-56190427-0ce5-45c5-970e-8b66ae26ec56"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3717ms
+
+2025-11-02T20:54:37.476Z [INFO] [log_4adf82, x-request-id: "00000-10f9a343-cc61-40ad-9183-f4bf7650d237"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3611ms
+
+2025-11-02T20:54:42.714Z [INFO] [log_8e7d80, x-request-id: "00000-83a18d74-7512-45b3-a79e-9de3ca8fd708"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3217ms
+
+2025-11-02T20:54:47.961Z [INFO] [log_d97dbe, x-request-id: "00000-de26f3bd-2a53-4698-8e88-eb45dd3d2cdc"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 2858ms
+
+2025-11-02T20:55:03.322Z [INFO] [log_552a2a, x-request-id: "00000-693caa0b-d75c-4d92-abee-2fde29c61b76"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3084ms
+
+2025-11-02T20:55:09.423Z [INFO] [log_90a436, x-request-id: "00000-075443fd-cb3c-4cad-8650-5845b13b0003"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3114ms
+
+2025-11-02T20:55:14.758Z [INFO] [log_eee354, x-request-id: "00000-2dae41ae-bd2c-4a2b-9508-47acfc66c751"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3288ms
+
+2025-11-03T10:55:21.108Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-03T10:55:21.195Z [INFO]  
+2025-11-03T10:55:26.459Z [INFO] [log_3da964, x-request-id: "00000-d6bb34f3-a21d-4c77-b4fd-a1d91988937b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4505ms
+
+2025-11-03T10:55:34.112Z [INFO] [log_f2cbb8, x-request-id: "00000-e162b628-6246-4a5d-a4ae-bb7677b82292"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4635ms
+
+2025-11-03T10:55:39.776Z [INFO] [log_ad8fc6, x-request-id: "00000-8472ca01-74b3-4a23-9e66-4c90eb251f68"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3362ms
+
+2025-11-03T10:55:54.805Z [INFO] [log_1ccdb6, x-request-id: "00000-79a85fae-4374-489c-8182-b3922f2670c7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3618ms
+
+2025-11-03T10:56:02.737Z [INFO] [log_34b4bd, x-request-id: "00000-11013a66-06e2-498f-800f-eca420c0840c"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3848ms
+
+2025-11-03T10:56:08.043Z [INFO] [log_be2a15, x-request-id: "00000-a71c4f29-21c1-4a78-bf08-609e31a0e89d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3737ms
+
+2025-11-03T10:56:16.217Z [INFO] [log_3210a1, x-request-id: "00000-d7dfec19-3f4f-4d48-a667-74456b97903b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3871ms
+
+2025-11-03T10:56:22.001Z [INFO] [log_665073, x-request-id: "00000-8757c58f-da78-4d26-8cc5-067c7f27c702"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3886ms
+
+2025-11-03T10:56:49.927Z [INFO] [log_7438dc, x-request-id: "00000-d7dcfb04-f993-4d49-9a21-ecc8f614743b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3856ms
+
+2025-11-03T10:56:59.405Z [INFO] [log_85fe77, x-request-id: "00000-8d0f9e99-141c-45f6-834d-56f6c8e66dc5"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4221ms
+
+2025-11-03T10:57:04.720Z [INFO] [log_4be7c3, x-request-id: "00000-b75ce18f-4e05-4a66-805d-c2d07c27fdb7"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3949ms
+
+2025-11-03T11:49:51.663Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-03T11:49:51.754Z [INFO]  
+2025-11-03T11:49:57.293Z [INFO] [log_51f63b, x-request-id: "00000-75ae9a38-8665-455d-96af-1cff88a0c4b0"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4713ms
+
+2025-11-03T11:50:02.623Z [INFO] [log_b0af1f, x-request-id: "00000-2e710165-6234-42f2-b32f-0f441b123e62"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3785ms
+
+2025-11-03T11:50:23.980Z [INFO] [log_190a0f, x-request-id: "00000-62e12f6a-bc1e-4f04-ae7b-c5b1d0770ab9"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3149ms
+
+2025-11-03T11:50:29.738Z [INFO] [log_c538e8, x-request-id: "00000-f5c1fb10-a24d-4f81-a6c0-0c1f83195ac6"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3509ms
+
+2025-11-03T13:28:11.237Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-03T13:28:11.320Z [INFO]  
+2025-11-03T13:28:17.309Z [INFO] [log_3ac2e3, x-request-id: "00000-7d99f4ef-b9f4-4def-8a85-413592805c9d"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4815ms
+
+2025-11-03T13:28:22.564Z [INFO] [log_689f97, x-request-id: "00000-28afd653-fbeb-4bc7-9d5d-658263fb8ef8"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3998ms
+
+2025-11-03T13:28:27.596Z [INFO] [log_bdd5d3, x-request-id: "00000-8affdf29-d97d-4f13-a421-56964fa27d39"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3410ms
+
+2025-11-03T13:28:31.500Z [INFO] [log_42e1e7, x-request-id: "00000-11ad928a-2fcd-46ff-8f03-81f1f4baa36a"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3469ms
+
+2025-11-03T13:28:43.286Z [INFO] [log_c5ebee, x-request-id: "00000-95084480-66b8-4bc3-b858-66caaad4663f"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 3134ms
+
+2025-11-03T13:31:33.783Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-03T13:31:33.868Z [INFO]  
+2025-11-03T13:31:39.191Z [INFO] [log_ec2520, x-request-id: "00000-4d4d81dc-91d0-4b0d-9406-ba2939c1dd41"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4472ms
+
+2025-11-03T13:31:54.308Z [INFO] [log_70122e, x-request-id: "00000-2e296b5b-ab81-46b4-8bbe-a622f094410b"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 5246ms
+
+2025-11-03T13:32:19.886Z [INFO] Using default model: claude-sonnet-4.5
+2025-11-03T13:32:19.967Z [INFO]  
+2025-11-03T13:32:24.417Z [INFO] [log_743703, x-request-id: "00000-7737ca68-675d-469b-a37a-3244f30dcd91"] post https://api.individual.githubcopilot.com/chat/completions succeeded with status 200 in 4112ms
+

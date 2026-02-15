@@ -1,0 +1,18 @@
+2025-10-15T09:48:50.277Z [LOG] Using Copilot API endpoint: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-15T09:48:50.282Z [LOG] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-15T09:48:50.282Z [LOG] Creating MCP client for github-mcp-server...
+2025-10-15T09:48:50.284Z [LOG] Connecting MCP client for github-mcp-server...
+2025-10-15T09:48:51.222Z [LOG] MCP client for github-mcp-server connected, took 938ms
+2025-10-15T09:48:51.222Z [LOG] Started MCP client for remote server github-mcp-server
+2025-10-15T09:48:51.222Z [LOG] GitHub MCP server configured after authentication
+2025-10-15T09:50:11.277Z [INFO]  
+2025-10-15T10:20:54.105Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:25.880Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:25.880Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:26.490Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:26.490Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:26.896Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:26.897Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:27.201Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:26:27.201Z [ERROR] Pending tool call with ID tooluse_wRINUI5aR56ssmOModv-3Q not found
+2025-10-15T10:56:33.940Z [INFO]  
