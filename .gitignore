@@ -27,3 +27,5 @@ link/.config/zed/.tmp*
 link/.config/zed/conversations
 link/.config/zed/embeddings
 link/.config/zed/prompts
+
+link/.config/depot/depot.yaml

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "formatter": {
+    "rubocop": {
+      "disabled": true
+    }
+  },
+  "lsp": {
+    "ruby-lsp": {
+      "disabled": true
+    }
+  },
+  "mcp": {
+    "browsermcp": {
+      "type": "local",
+      "command": ["npx", "@browsermcp/mcp@latest"]
+    }
+  }
+}

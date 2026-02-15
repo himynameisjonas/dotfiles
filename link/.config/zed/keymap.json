@@ -2,18 +2,18 @@
   {
     "context": "Editor",
     "bindings": {
-      "cmd-shift-l": "editor::SplitSelectionIntoLines"
-    }
+      "cmd-shift-l": "editor::SplitSelectionIntoLines",
+    },
   },
   {
-    "bindings": { "cmd-/": "editor::ToggleComments" }
+    "bindings": { "cmd-/": "editor::ToggleComments" },
   },
   {
     "context": "Workspace",
     "bindings": {
       "cmd-}": "terminal_panel::ToggleFocus",
-      "cmd-ctrl-a": "assistant::ToggleFocus"
-    }
+      "cmd-ctrl-a": "agent::ToggleFocus",
+    },
   },
   {
     "context": "Workspace",
@@ -21,10 +21,18 @@
       "ctrl-r g": [
         "task::Spawn",
         {
-          "task_name": "Lazygit"
-        }
-      ]
-    }
+          "task_name": "Lazygit",
+        },
+      ],
+
+      "cmd-shift a": [
+        "task::Spawn",
+        {
+          "task_name": "Alternate file",
+          "reevaluate_context": true,
+        },
+      ],
+    },
   },
   {
     "context": "Workspace",
@@ -32,10 +40,10 @@
       "ctrl-r s": [
         "task::Spawn",
         {
-          "task_name": "Start"
-        }
-      ]
-    }
+          "task_name": "Start",
+        },
+      ],
+    },
   },
   {
     "context": "Workspace",
@@ -43,9 +51,9 @@
       "ctrl-r u": [
         "task::Spawn",
         {
-          "task_name": "Update"
-        }
-      ]
-    }
-  }
+          "task_name": "Update",
+        },
+      ],
+    },
+  },
 ]

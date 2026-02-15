@@ -1,7 +1,9 @@
-
 font-family=Operator Mono Lig
 font-size=17
-theme=catppuccin-latte
+theme=Catppuccin Latte
 window-height=60
 window-width=180
 adjust-cursor-thickness=2
+macos-titlebar-style = tabs
+auto-update-channel = tip
+scrollback-limit=1000

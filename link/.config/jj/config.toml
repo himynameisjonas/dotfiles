@@ -8,8 +8,52 @@ email = "jonas@brusman.se"
 pager = "delta"
 default-command = "status"
 
+[revsets]
+log = "(trunk()..@):: | (trunk()..@)-"
+
+[revset-aliases]
+'user(x)' = 'author(x) | committer(x)'
+'mine()' = 'user("jonas@brusman.se") | user("jonas@teamtailor.com")'
+
+'wip()' = 'description(glob:"wip:*")'
+'private()' = 'description(glob:"private:*")'
+
+'stack()' = 'stack(@)'
+'stack(x)' = 'stack(x, 2)'
+'stack(x, n)' = 'ancestors(reachable(x, mutable()), n)'
+
+'open()' = 'stack(mine() | @, 1)'
+'ready()' = 'open() ~ descendants(wip() | private())'
+
+'uninterested()' = '::remote_bookmarks() | tags()'
+'interested()' = 'mine() ~ uninterested()'
+'openi()' = 'ancestors(interested(), 3) | tracked_remote_bookmarks() | ancestors(@, 3)'
+
+'closest_bookmark(to)' = 'heads(::to & bookmarks())'
+'closest_pushable(to)' = 'heads(::to & mutable() & ~description(exact:"") & (~empty() | merges()))'
+
+'recent_work' = 'ancestors(visible_heads(), 3) & mutable()'
+
+
 [aliases]
-tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+tug = ["util", "exec", "--", "sh", "-c", """
+if [ "x$1" = "x" ]; then
+  jj bookmark move --from "closest_bookmark(@)" --to "closest_pushable(@)"
+else
+  jj bookmark move --to "closest_pushable(@)" "$@"
+fi
+""", ""]
+
+z = ["fuzzy_bookmark"]
+za = ["bookmark", "list", "-a"]
+
+fuzzy_bookmark = ["util", "exec", "--", "sh", "-c", """
+if [ "x$1" = "x" ]; then
+  jj bookmark list
+else
+  jj bookmark list -a -T 'separate("@", name, remote) ++ "\n"' 2> /dev/null | sort | uniq | fzf -f "$1" | head -n1 | xargs jj new
+fi
+""", ""]
 
 ll = [
     "log",
@@ -23,8 +67,29 @@ lll = [
     "-r",
     "@ | ancestors(remote_bookmarks().., 2) | trunk()",
 ]
+lr = ["log", "-T", "log_with_files"]
 
 rtrunk = ["rebase", "-r", "@", "-d", "trunk()"]
 
 [git]
 write-change-id-header = true
+
+[template-aliases]
+log_with_files = '''
+if(root,
+  format_root_commit(self),
+  label(if(current_working_copy, "working_copy"),
+    concat(
+      format_short_commit_header(self) ++ "\n",
+      separate(" ",
+        if(empty, label("empty", "(empty)")),
+        if(description,
+          description.first_line(),
+          label(if(empty, "empty"), description_placeholder),
+        ),
+      ) ++ "\n",
+      if(self.contained_in("recent_work"), diff.summary()),
+    ),
+  )
+)
+'''

@@ -113,12 +113,11 @@ fi
 
 [[ -f "${HOME}/.zsh/aliases" ]] && source "${HOME}/.zsh/aliases"
 
-export STARSHIP_CONFIG=~/.starship
-
 eval "$(rbenv init -)"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/Users/jonas/.cargo/bin:$PATH"
 
 # The next line updates PATH for Netlify's Git Credential Helper.
 if [ -f '/Users/jonas/.netlify/helper/path.zsh.inc' ]; then source '/Users/jonas/.netlify/helper/path.zsh.inc'; fi
@@ -126,6 +125,8 @@ export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 export VOLTA_FEATURE_PNPM=1
 export NODE_OPTIONS=--max_old_space_size=6144
+
+export BEADS_NO_DAEMON=1
 
 # The next line updates PATH for Netlify's Git Credential Helper.
 test -f '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc' && source '/Users/jonas/Library/Preferences/netlify/helper/path.zsh.inc'
@@ -137,3 +138,5 @@ source <(COMPLETE=zsh jj)
 export XDG_CONFIG_HOME="$HOME/.config/"
 eval "$(atuin init zsh)"
 export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
+
+. "$HOME/.atuin/bin/env"
