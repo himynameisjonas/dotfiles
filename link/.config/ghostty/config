@@ -6,4 +6,4 @@ window-width=180
 adjust-cursor-thickness=2
 macos-titlebar-style = tabs
 auto-update-channel = tip
-scrollback-limit=1000
+scrollback-limit=500000000
