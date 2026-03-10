@@ -15,5 +15,6 @@
       "type": "local",
       "command": ["npx", "@browsermcp/mcp@latest"]
     }
-  }
+  },
+  "plugin": ["@ex-machina/opencode-anthropic-auth", "oh-my-opencode"]
 }
