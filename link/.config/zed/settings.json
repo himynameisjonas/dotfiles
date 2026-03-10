@@ -7,43 +7,37 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "edit_predictions": {
+    "provider": "zed",
+  },
   "colorize_brackets": true,
   "context_servers": {
     "mcp-server-buildkite": {
       "enabled": true,
       "remote": false,
       "settings": {
-        "buildkite_api_token": "BUILDKITE_API_TOKEN"
-      }
+        "buildkite_api_token": "BUILDKITE_API_TOKEN",
+      },
     },
     "ember": {
       "enabled": true,
       "command": "npx",
-      "args": [
-        "-y",
-        "ember-mcp"
-      ],
-      "env": {}
+      "args": ["-y", "ember-mcp"],
+      "env": {},
     },
     "sentry": {
       "enabled": true,
       "command": "npx",
-      "args": [
-        "@sentry/mcp-server@latest",
-        "--host=errors.teamtailor.com",
-      ],
-      "env": {}
+      "args": ["@sentry/mcp-server@latest", "--host=errors.teamtailor.com"],
+      "env": {},
     },
     "browsermcp": {
       "enabled": true,
       "command": "npx",
-      "args": ["@browsermcp/mcp@latest"]
-    }
+      "args": ["@browsermcp/mcp@latest"],
+    },
   },
   "icon_theme": "Catppuccin Frappé",
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
   "ssh_connections": [
     {
       "host": "192.168.1.158",
@@ -51,41 +45,27 @@
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/Users/jonas"
-          ]
+          "paths": ["/Users/jonas"],
         },
         {
-          "paths": [
-            "/Users/jonas/code/posse_party"
-          ]
+          "paths": ["/Users/jonas/code/posse_party"],
         },
         {
-          "paths": [
-            "/opt"
-          ]
+          "paths": ["/opt"],
         },
         {
-          "paths": [
-            "~/minecraft"
-          ]
+          "paths": ["~/minecraft"],
         },
         {
-          "paths": [
-            "~/obsidian"
-          ]
+          "paths": ["~/obsidian"],
         },
         {
-          "paths": [
-            "~/plexbox"
-          ]
+          "paths": ["~/plexbox"],
         },
         {
-          "paths": [
-            "~/plexbox/arr"
-          ]
-        }
-      ]
+          "paths": ["~/plexbox/arr"],
+        },
+      ],
     },
     {
       "host": "evil-ex-1",
@@ -93,11 +73,9 @@
       "args": [],
       "projects": [
         {
-          "paths": [
-            "~/evil-exes"
-          ]
-        }
-      ]
+          "paths": ["~/evil-exes"],
+        },
+      ],
     },
     {
       "host": "evil-ex-3",
@@ -105,33 +83,27 @@
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/mnt/nfs-ssd/zigbee2mqtt"
-          ]
+          "paths": ["/mnt/nfs-ssd/zigbee2mqtt"],
         },
         {
-          "paths": [
-            "~/evil-exes"
-          ]
-        }
-      ]
+          "paths": ["~/evil-exes"],
+        },
+      ],
     },
     {
       "host": "allthingsmini",
       "args": [],
-      "projects": []
+      "projects": [],
     },
     {
       "host": "tacocat",
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/opt"
-          ]
-        }
-      ]
-    }
+          "paths": ["/opt"],
+        },
+      ],
+    },
   ],
   "base_keymap": "Atom",
   "theme": "Catppuccin Latte",
@@ -143,74 +115,71 @@
   "ui_font_weight": 200,
 
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
 
   "notification_panel": {
-    "button": false
+    "button": false,
   },
 
   "agent": {
     "favorite_models": [
       {
         "provider": "copilot_chat",
-        "model": "gpt-5-codex"
+        "model": "gpt-5.2-codex",
       },
       {
         "provider": "copilot_chat",
-        "model": "gemini-3-pro-preview"
+        "model": "gemini-3-pro-preview",
       },
-      {
-        "provider": "copilot_chat",
-        "model": "gpt-5.2"
-      }
     ],
     "inline_assistant_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "model": "claude-sonnet-4.5",
     },
 
     "default_profile": "write",
     "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-5.2"
+      "model": "claude-opus-4.6",
     },
     "inline_alternatives": [
       {
         "provider": "copilot_chat",
-        "model": "gpt-4o"
-      }
+        "model": "gpt-4o",
+      },
     ],
-    "enabled": true
+    "enabled": true,
   },
 
   "tab_bar": {
-    "show_nav_history_buttons": false
+    "show_nav_history_buttons": false,
   },
 
   "tabs": {
-    "git_status": true
+    "git_status": true,
   },
 
   "git_panel": {
-    "sort_by_path": true
+    "sort_by_path": true,
   },
 
   "telemetry": {
-    "metrics": false
+    "metrics": false,
   },
 
   "terminal": {
+    "dock": "bottom",
     "env": {
-      "GIT_EDITOR": "zed --wait"
+      "GIT_EDITOR": "zed --wait",
     },
     "option_as_meta": false,
     "detect_venv": {
       "on": {
-        "directories": ["env", ".venv", "venv"]
-      }
-    }
+        "directories": ["env", ".venv", "venv"],
+      },
+    },
   },
 
   "languages": {
@@ -219,32 +188,32 @@
         "ruby-lsp",
         "!standardrb",
         "!solargraph",
-        "!rubocop"
+        "!rubocop",
       ],
-      "formatter": "language_server"
+      "formatter": "language_server",
     },
     "Handlebars": {
       "ensure_final_newline_on_save": false,
       "prettier": {
-        "allowed": true
-      }
+        "allowed": true,
+      },
     },
     "Terraform": {
       "formatter": {
         "external": {
           "command": "tofu",
-          "arguments": ["fmt", "-"]
-        }
-      }
+          "arguments": ["fmt", "-"],
+        },
+      },
     },
     "Terraform Vars": {
       "formatter": {
         "external": {
           "command": "tofu",
-          "arguments": ["fmt", "-"]
-        }
-      }
-    }
+          "arguments": ["fmt", "-"],
+        },
+      },
+    },
   },
 
   "lsp": {
@@ -252,22 +221,22 @@
       "initialization_options": {
         "enabledFeatures": {
           "diagnostics": true,
-          "formatting": true
+          "formatting": true,
         },
         "linters": ["standard"],
-        "formatter": "standard"
-      }
+        "formatter": "standard",
+      },
     },
     "tailwindcss-language-server": {
       "settings": {
         "includeLanguages": {
           "erb": "html",
-          "ruby": "html"
+          "ruby": "html",
         },
         "experimental": {
-          "classRegex": ["\\bclass:\\s*['\"]([^'\"]*)['\"]"]
-        }
-      }
-    }
-  }
+          "classRegex": ["\\bclass:\\s*['\"]([^'\"]*)['\"]"],
+        },
+      },
+    },
+  },
 }
