@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# --- Friendly name generation ---
+adjectives=(swift calm bold warm keen bright steady quick sharp gentle)
+nouns=(falcon river oak flame spark cedar brook stone maple ridge)
+
+generate_name() {
+  local adj="${adjectives[$((RANDOM % ${#adjectives[@]}))]}"
+  local noun="${nouns[$((RANDOM % ${#nouns[@]}))]}"
+  echo "${adj}-${noun}"
+}
+
+sanitize_name() {
+  local name="$1"
+  name=$(echo "$name" | tr -c 'a-zA-Z0-9_-' '-')
+  name=$(echo "$name" | sed 's/-\{2,\}/-/g; s/^-//; s/-$//')
+  if [[ -z "$name" ]]; then
+    echo "Error: workspace name is empty after sanitization" >&2
+    exit 1
+  fi
+  echo "$name"
+}
+
+# --- Argument parsing ---
+workspace_name=""
+name_parts=()
+
+if [[ "${1:-}" == "-w" ]]; then
+  workspace_name=$(generate_name)
+  shift
+elif [[ -n "${1:-}" && "${1:-}" != "--" && "${1:-}" != -* ]]; then
+  while [[ -n "${1:-}" && "${1:-}" != "--" && "${1:-}" != -* ]]; do
+    name_parts+=("$1")
+    shift
+  done
+  workspace_name=$(sanitize_name "${name_parts[*]}")
+else
+  workspace_name=$(generate_name)
+fi
+
+# --- Workspace setup ---
+jj_root=$(jj root)
+repo_name=$(basename "$jj_root")
+parent_dir=$(dirname "$jj_root")
+workspace_dir="$parent_dir/${repo_name}-${workspace_name}"
+
+resuming=false
+if [[ -d "$workspace_dir" ]]; then
+  resuming=true
+  echo "Resuming workspace '$workspace_name' at $workspace_dir"
+else
+  echo "Creating workspace '$workspace_name' at $workspace_dir"
+  jj workspace add "$workspace_dir" --name "$workspace_name"
+  cp -cr "$jj_root/.vibe" "$workspace_dir/.vibe"
+fi
+cd "$workspace_dir"
+
+# --- Vibe setup ---
+tmpdir=$(mktemp -d)
+trap 'rm -rf "$tmpdir"' EXIT
+
+cp ~/.claude.json "$tmpdir/.claude.json"
+
+if $resuming; then
+  claude_cmd="claude --continue --dangerously-skip-permissions --append-system-prompt 'Workspace: ${workspace_name}'"
+else
+  claude_cmd="claude --dangerously-skip-permissions --append-system-prompt 'Workspace: ${workspace_name}'"
+fi
+
+vibe \
+  --mount "$tmpdir:/mnt/claude-config:read-only" \
+  --mount "$HOME/.config/jj:/root/.config/jj" \
+  --mount "$parent_dir:$parent_dir" \
+  --expect "root@vibe" \
+  --send "cp /mnt/claude-config/.claude.json /root/.claude.json && { command -v jj >/dev/null || { _jj_tmp=\$(mktemp -d) && mise install-into jujutsu@latest \"\$_jj_tmp\" && cp \"\$_jj_tmp/jj\" /root/.local/bin/jj && rm -rf \"\$_jj_tmp\"; }; } && cd $workspace_dir && $claude_cmd" \
+  "$@"
