@@ -1,0 +1,108 @@
+schemaVersion = 1
+
+[catalogConfiguration]
+customFolders = []
+folderDepthOverrides = []
+
+    [[catalogConfiguration.scriptsDirectories]]
+    id = '4915CCC9-72EB-4186-AB6D-F9C022AF1FEE'
+    path = '~/code/dotfiles/link/scripts'
+
+[extensions]
+enabledIdentifiers = [ 'com.brnbw.tuna.plugins.obsidian', 'com.brnbw.tuna.plugins.things' ]
+
+[hotkeys.app.activate]
+carbonKeyCode = 49
+carbonModifiers = 256
+
+[hotkeys.app.dictation]
+carbonKeyCode = 37
+carbonModifiers = 2816
+
+[[hotkeys.custom]]
+id = '5D20B7D1-6C5B-43B9-93C0-91BB169949F9'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'Tuna.BasicActionsCatalog.Browse'
+    subjectIdentifier = 'Tuna.Internal.ClipboardProxyCatalog.Clipboard History'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 8
+    carbonModifiers = 2304
+
+[[hotkeys.custom]]
+id = '63300557-EDFB-416A-97ED-39062B1F4B45'
+presentation = 'hidden'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run in Background'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Center Three Fourths'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 46
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = '804146A3-861F-4247-B94B-B6294531369C'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run in Background'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Make Larger'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 47
+    carbonModifiers = 6912
+
+[[hotkeys.custom]]
+id = 'AF5E1BE7-937F-4E7F-AC6D-C97EB1275230'
+presentation = 'auto'
+
+    [hotkeys.custom.command]
+    actionIdentifier = 'TunaCore.CommonActionsCatalog.Run in Background'
+    subjectIdentifier = 'TunaSystem.WindowManagementCatalog.Make Smaller'
+
+    [hotkeys.custom.shortcut]
+    carbonKeyCode = 43
+    carbonModifiers = 6912
+
+[[leaderMode.bindings]]
+key = 's'
+url = 'tuna://run/path.%252FApplications%252FSafari.app/Open'
+
+[[leaderMode.bindings]]
+key = 't'
+url = 'tuna://run/path.%252FSystem%252FApplications%252FUtilities%252FTerminal.app/Open'
+
+[[leaderMode.bindings]]
+key = 'f'
+url = 'tuna://run/path.%252FSystem%252FLibrary%252FCoreServices%252FFinder.app/Open'
+
+[[leaderMode.bindings]]
+key = 'm'
+url = 'tuna://run/path.%252FSystem%252FApplications%252FMessages.app/Open'
+
+[[leaderMode.bindings]]
+key = 'n'
+url = 'tuna://run/path.%252FSystem%252FApplications%252FNotes.app/Open'
+
+[[leaderMode.bindings]]
+key = 'd'
+url = 'tuna://run/path.%252FUsers%252Fjonas%252FDownloads/Open'
+
+[[leaderMode.bindings]]
+key = 'h'
+url = 'tuna://run/path.%252FUsers%252Fjonas/Open'
+
+[settings]
+clipboardHistoryRetention = 'oneYear'
+clipboardIgnoredBundleIdentifiers = [ 'com.1password.1password' ]
+physicalHyperKeySource = 'capsLock'
+themeIdentifier = 'com.brnbw.tuna.themes.default'
+
+[[catalogSettings]]
+catalogIdentifier = 'com.brnbw.tuna.themes.default'
+
+    [catalogSettings.values]
+    ThemeTint = 'custom:000000'
