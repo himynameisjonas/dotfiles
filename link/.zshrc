@@ -139,4 +139,4 @@ export XDG_CONFIG_HOME="$HOME/.config/"
 eval "$(atuin init zsh)"
 export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
 
-. "$HOME/.atuin/bin/env"
+#. "$HOME/.atuin/bin/env"

@@ -29,3 +29,10 @@ link/.config/zed/embeddings
 link/.config/zed/prompts
 
 link/.config/depot/depot.yaml
+
+link/.config/jj/repos
+
+link/scripts/.env
+link/scripts/*.log
+
+.DS_Store
