@@ -53,6 +53,30 @@ else
   echo "Creating workspace '$workspace_name' at $workspace_dir"
   jj workspace add "$workspace_dir" --name "$workspace_name"
   cp -cr "$jj_root/.vibe" "$workspace_dir/.vibe"
+
+  if [[ -f "$jj_root/.claude/settings.local.json" ]]; then
+    mkdir -p "$workspace_dir/.claude"
+    cp "$jj_root/.claude/settings.local.json" "$workspace_dir/.claude/settings.local.json"
+  fi
+
+  if [[ -f "$jj_root/.env.development" ]]; then
+    cp "$jj_root/.env.development" "$workspace_dir/.env.development"
+  fi
+
+  cow_copy() {
+    local src="$1" dst="$2" label="$3"
+    if [[ -d "$src" ]]; then
+      echo "Copying $label (CoW)..."
+      cp -cR "$src" "$dst"
+    fi
+  }
+
+  if [[ -f "$jj_root/pnpm-lock.yaml" ]]; then
+    cow_copy "$jj_root/node_modules" "$workspace_dir/node_modules" "node_modules/"
+  fi
+  if [[ -f "$jj_root/ember_app/pnpm-lock.yaml" ]]; then
+    cow_copy "$jj_root/ember_app/node_modules" "$workspace_dir/ember_app/node_modules" "ember_app/node_modules/"
+  fi
 fi
 cd "$workspace_dir"
 
@@ -61,6 +85,10 @@ tmpdir=$(mktemp -d)
 trap 'rm -rf "$tmpdir"' EXIT
 
 cp ~/.claude.json "$tmpdir/.claude.json"
+
+if [[ -f ~/.local/share/opencode/auth.json ]]; then
+  cp ~/.local/share/opencode/auth.json "$tmpdir/opencode-auth.json"
+fi
 
 if $resuming; then
   claude_cmd="claude --continue --dangerously-skip-permissions --append-system-prompt 'Workspace: ${workspace_name}'"
@@ -71,7 +99,8 @@ fi
 vibe \
   --mount "$tmpdir:/mnt/claude-config:read-only" \
   --mount "$HOME/.config/jj:/root/.config/jj" \
+  --mount "$HOME/.config/opencode:/root/.config/opencode" \
   --mount "$parent_dir:$parent_dir" \
   --expect "root@vibe" \
-  --send "cp /mnt/claude-config/.claude.json /root/.claude.json && { command -v jj >/dev/null || { _jj_tmp=\$(mktemp -d) && mise install-into jujutsu@latest \"\$_jj_tmp\" && cp \"\$_jj_tmp/jj\" /root/.local/bin/jj && rm -rf \"\$_jj_tmp\"; }; } && cd $workspace_dir && $claude_cmd" \
+  --send "cp /mnt/claude-config/.claude.json /root/.claude.json && { mkdir -p /root/.local/share/opencode && cp /mnt/claude-config/opencode-auth.json /root/.local/share/opencode/auth.json 2>/dev/null; true; } && mise trust ~/$(basename "$workspace_dir")/mise.toml 2>/dev/null; mise trust $workspace_dir/mise.toml 2>/dev/null; true && { command -v jj >/dev/null || { _jj_tmp=\$(mktemp -d) && mise install-into jujutsu@latest \"\$_jj_tmp\" && cp \"\$_jj_tmp/jj\" /root/.local/bin/jj && rm -rf \"\$_jj_tmp\"; }; } && { command -v opencode >/dev/null || npm install -g opencode-ai; } && cd $workspace_dir && $claude_cmd" \
   "$@"
