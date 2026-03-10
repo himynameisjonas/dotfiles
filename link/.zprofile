@@ -11,3 +11,4 @@ source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
 # Created by `pipx` on 2024-08-14 17:38:52
 export PATH="$PATH:/Users/jonas/.local/bin"
+export PATH="$PATH:$HOME/scripts"
