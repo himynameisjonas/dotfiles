@@ -2,7 +2,10 @@ schemaVersion = 1
 
 [catalogConfiguration]
 customFolders = []
-folderDepthOverrides = []
+
+    [[catalogConfiguration.folderDepthOverrides]]
+    catalogIdentifier = 'TunaCore.UserFoldersCatalog'
+    depthRawValue = 1
 
     [[catalogConfiguration.scriptsDirectories]]
     id = '4915CCC9-72EB-4186-AB6D-F9C022AF1FEE'
