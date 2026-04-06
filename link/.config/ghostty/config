@@ -5,5 +5,7 @@ window-height=60
 window-width=180
 adjust-cursor-thickness=2
 macos-titlebar-style = tabs
-#auto-update-channel = tip
+auto-update-channel = stable
 scrollback-limit=500000000
+keybind = shift+enter=text:\x1b\r
+macos-option-as-alt=left
