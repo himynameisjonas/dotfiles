@@ -123,6 +123,14 @@
   },
 
   "agent": {
+    "profiles": {
+      "plan": {
+        "name": "Plan",
+        "tools": {},
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
     "favorite_models": [
       {
         "provider": "copilot_chat",
