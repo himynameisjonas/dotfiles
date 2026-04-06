@@ -12,6 +12,8 @@ link/.config/gh/hosts.yml
 
 link/.config/github-copilot/hosts.json
 link/.config/github-copilot/apps.json
+link/.config/.copilot/logs/*
+
 link/.config/iterm2/AppSupport
 
 link/.config/ngrok/ngrok.yml
@@ -34,5 +36,9 @@ link/.config/jj/repos
 
 link/scripts/.env
 link/scripts/*.log
+
+link/.config/.wrangler/config/default.toml
+link/.config/.wrangler/metrics.json
+link/.config/.wrangler/logs/*
 
 .DS_Store
